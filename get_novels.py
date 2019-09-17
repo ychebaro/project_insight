@@ -81,7 +81,7 @@ def clean_data_language(inputdata, outputfile):
 
 	output = open(outputfile, 'a')
 
-	with gzip.open(inputdata) as json_file:
+	with open(inputdata) as json_file:
 		for line in json_file:
 			book = json.loads(line)
 			names = [elm['name'] for elm in book['popular_shelves']]
@@ -90,22 +90,24 @@ def clean_data_language(inputdata, outputfile):
 
 	output.close()
 
-	# with open(inputdata) as json_file:
-		# for line in json_file:
-			# book = json.loads(line)
-			# names = [elm['name'] for elm in book['popular_shelves']]
-			# if (book['language_code'] in eng_lan):
-			 # and (not set(child_books).isdisjoint(names) == False):
-				# output.write('{}\n').format(json.dumps(book))
+def load_data_table(inputdata):
+	book_titles = []
+	book_isbns = []
+	book_popshelves_names = []
+	book_popshelves_count = []
+	count = 0 
+	books = []
 
-	# with open(outputfile, 'a') as output:
-		# for p in inputdata:
-			# if p['language_code'] in eng_lan:
-				# output.write('{}\n'.format(json.dumps(p)))
-		# if p['isbn'] != '':
-			# english.append([p['language_code'], p['isbn'], p['title']])
+	with open(inputdata) as json_file:
+		for line in json_file:
+			book = json.loads(line)
+			count += 1
+			book_titles.append(book['title'])
+			book_isbns.append(book['isbn'])
+			book_popshelves_names.append([elm['name'] for elm in book['popular_shelves']])
+			book_popshelves_count.append([elm['count'] for elm in book['popular_shelves']])
 
-	# return english
+	return count, book_titles, book_isbns, book_popshelves_names, book_popshelves_count
 
 
 def main():
@@ -116,7 +118,32 @@ def main():
 	# books_in = load_data('goodreads_books.json.gz')
 
 	# english_books = clean_data_language(books_in)
-	clean_data_language('goodreads_books.json.gz', 'all-english-nochild.json')
+	# clean_data_language('10Kbooks.json', '10K-english-nochild.json')
+	count, book_titles, book_isbns, book_popshelves_names, book_popshelves_count = load_data_table('all-english-nochild.json')
+
+	print(len(book_titles), len(book_isbns), len(book_popshelves_names), len(book_popshelves_count))
+
+	# print(count)
+	# with open('analyse_tags-all.dat', 'w') as fileout:
+		# for i in range(count):
+			# fileout.write('{} {} {} {} {}\n'.format(i, book_titles[i], book_isbns[i], book_popshelves_names[i], book_popshelves_count[i]))
+
+	# with open('analyse_tags-all-count.dat', 'w') as fileout:
+	# 	for i in range(count):
+	# 		fileout.write('{} {}\n'.format(i, book_popshelves_count[i]))
+
+
+	# with open('analyse_tags-all-names.dat', 'w') as fileout:
+	# 	for i in range(count):
+	# 		fileout.write('{} {}\n'.format(i, book_popshelves_names[i]))
+
+	flat_names = [item for sublist in book_popshelves_names for item in sublist]
+	flat_count = [item for sublist in book_popshelves_count for item in sublist]
+
+	with open('tags-count-2col-all-no1.dat', 'w') as fileout:
+		for i,j in zip(flat_names, flat_count):
+			if j > 1:
+				fileout.write('{} {}\n'.format(i,j))
 
 	# for elm in english_books:
 		# print(elm)
