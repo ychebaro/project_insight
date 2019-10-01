@@ -116,8 +116,7 @@ class CleaningBooks(object):
 				or (bool(re.match('tbr', elm[i])) == True) or (bool(re.match('.*finish*', elm[i])) == True)\
 				or (bool(re.match('.*kindle*', elm[i])) == True) or (bool(re.match('.*list*', elm[i])) == True)\
 				or (bool(re.match('.*year*', elm[i])) == True) or (bool(re.match('.*audio*', elm[i])) == True)\
-				or (bool(re.match('.*library*', elm[i])) == True) or \
-				(bool(re.match('[^\x00-\x7F\x80-\xFF\u0100-\u017F\u0180-\u024F\u1E00-\u1EFF]', elm[i])) == True):
+				or (bool(re.match('.*library*', elm[i])) == True):
 					to_remove.append(i) 
 		
 			popnew.append([elm[e] for e in range(len(elm)) if e not in to_remove])
@@ -155,6 +154,98 @@ class CleaningBooks(object):
 	
 		return popnew, cnew
 
+	def merge_similar_tags(dfin):
+		""" Merge similar tags, needed after replacing ya with young-adult for example
+		
+		Args:
+			dfin (:obj:`str`): name of the dataframe
+ 
+		Returns:
+			:obj:`popnew`: list with merged tag names
+			:obj:`cnew`: list with removed count of merged tag names
+		"""
+
+		popular_shelves = dfin['popular_shelves']
+		count_shelves = dfin['count_shelves']    
+	
+		popnew = []
+		cnew = []
+		sum_tags = []
+
+		for elm, elmc in zip(popular_shelves, count_shelves):  
+			to_remove = []
+			elmc_int = np.array([int(i) for i in elmc])
+			rep = [item for item, count in Counter(elm).items() if count > 1]
+			if rep:
+				to_remove = [elm.index(tag) for tag in rep]
+				for r in rep:
+					rep_idx = [i for i,d in enumerate(elm) if d==r]
+					sum_rep = (np.sum(elmc_int[rep_idx]))
+					elmc_int[rep_idx[1]] = sum_rep
+			
+			popnew.append([elm[e] for e in range(len(elm)) if e not in to_remove])
+			cnew.append([elmc_int[e] for e in range(len(elmc_int)) if e not in to_remove])
+			sum_tags.append(sum([elmc_int[e] for e in range(len(elmc_int)) if e not in to_remove]))
+		
+		return popnew, cnew, sum_tags    
+	
+
+	def remove_sf_tags(dfin):
+		""" Remove science-fiction tags to extract other subgenre tags
+		
+		Args:
+			dfin (:obj:`str`): name of the dataframe
+ 
+		Returns:
+			:obj:`popnew`: list with removed science-fiction tag names
+			:obj:`cnew`: list with removed count of science-fiction tag names
+		"""
+
+		popular_shelves = dfin['popular_shelves']
+		count_shelves = dfin['count_shelves']
+	
+		popnew = []
+		cnew = []
+
+		for elm, elmc in zip(popular_shelves, count_shelves):    
+			to_remove = []
+			for i in range(len(elm)):
+				if (bool(re.match('.*science-fiction*', elm[i])) == True):
+					to_remove.append(i) 
+			popnew.append([elm[e] for e in range(len(elm)) if e not in to_remove])
+			cnew.append([elmc[e] for e in range(len(elmc)) if e not in to_remove])
+ 
+		return popnew, cnew
+
+	def get_first_tags(dfin, cutoff):
+		""" Keep only first n tags, using cutoff as value
+		
+		Args:
+			dfin (:obj:`str`): name of the dataframe
+			cutoff (:obj:`int`): cutoff for the number of first tags to keep
+ 
+		Returns:
+			:obj:`popnew`: list with most populated tag names using cutoff for the number of tags
+			:obj:`cnew`: list with most populated tag names using cutoff for the number of tags
+		"""
+		popular_shelves = dfin['popular_shelves']
+		count_shelves = dfin['count_shelves']    
+		
+		popnew = []
+		cnew = []
+
+		for elm, elmc in zip(popular_shelves, count_shelves):    
+			listp = [elm[e] for e in range(len(elm))][0:int(cutoff)]
+			listc = [elmc[e] for e in range(len(elmc))][0:int(cutoff)]
+			if len(listp) == 0:
+				popnew.append('none')
+				cnew.append(0)
+			else:
+				popnew.append(listp[0])
+				cnew.append(listc[0])
+	
+		return popnew, cnew
+
 	def update_dataframe(self, popular_shelves, count_shelves, inputdf):
 		""" Updates dataframe with new values for popular_shelves and respective counts
 		
@@ -166,16 +257,16 @@ class CleaningBooks(object):
 		Returns:
 			:obj:`dfout`: pandas DataFrame with removed irrelevant tag names and their counts
 		"""
-
-		popnew, cnew = self.clean_data_nasty_tags(inputdf)
 		
 		# convert lists to pandas Series
-		new_column_p = pd.Series(popnew, name='popular_shelves', index=range(len(popnew)))
-		new_column_c = pd.Series(cnew, name='count_shelves', index=range(len(cnew)))
+		new_column_p = pd.Series(popular_shelves, name='popular_shelves', index=range(len(popular_shelves)))
+		new_column_c = pd.Series(count_shelves, name='count_shelves', index=range(len(count_shelves)))
 
 		# update dataframe
 		inputdf.update(new_column_p)
 		inputdf.update(new_column_c)
+
+		return inputdf
 
 
 	def get_books_data(self, inputdata):
@@ -191,7 +282,7 @@ class CleaningBooks(object):
 		"""
 
 		books = []
-		with gzip.open(inputdata) as json_file:
+		with open(inputdata) as json_file:
 			for lines in json_file:
 				book = {}
 				line = json.loads(lines)
@@ -231,12 +322,52 @@ class CleaningBooks(object):
 
 def main():
 
-	books_json = CleaningBooks().clean_data_language('goodreads_books.json.gz', 'books_en_nochild-30-09.json')
+	#books_json = CleaningBooks().clean_data_language('goodreads_books.json.gz', 'books_en_nochild-30-09.json')
 
-	with open('books_en_nochild-30-09.json', 'rb') as fin, gzip.open('books_en_nochild-30-09.json.gz', 'wb') as fout:
-		fout.writelines(fin)
+	#with open('books_en_nochild-30-09.json', 'rb') as fin, gzip.open('books_en_nochild-30-09.json.gz', 'wb') as fout:
+	#	fout.writelines(fin)
 
-	CleaningBooks().get_scifi('books_en_nochild.json.gz', 'books_scifi.json')
+	#CleaningBooks().get_scifi('books_en_nochild.json.gz', 'books_scifi.json')
+
+	#scifi_books = CleaningBooks().get_books_data('books_scifi.json')
+
+	#df_scifi_books = pd.DataFrame(scifi_books)
+	#df_scifi_books.to_csv('test-scifi.csv', index=False)
+
+	dfin = pd.read_csv('test-scifi.csv')
+
+	# Removing irrelevant tags from scifi books
+	pop_clean, c_clean = CleaningBooks().clean_data_nasty_tags(dfin)
+
+	# Updating dataframe with the appropriate tags from previous cleaning step
+	df_clean = CleaningBooks().update_dataframe(pop_clean, c_clean, dfin)
+
+	# Replace repetitive tag names
+	pop_replace, c_replace = CleaningBooks().replace_tags(df_clean)
+
+	# Update dataframe with the replace tag names 
+	df_replace = CleaningBooks().update_dataframe(pop_replace, c_replace, df_clean)
+
+	# Remove science-fiction tags to get subgenre tags
+	pop_remove_sf, c_remove_sf = CleaningBooks().remove_sf_tags(df_replace)
+
+	# Update dataframe without the science-fiction tags
+	df_remove_sf = CleaningBooks().update_dataframe(pop_remove_sf, c_remove_sf, df_replace)
+
+	# Merge similar tags
+	pop_merge, c_merge = CleaningBooks().merge_similar_tags(df_remove_sf)
+
+	# Update again
+	df_merge = CleaningBooks().update_dataframe(pop_merge, c_merge, df_remove_sf)
+
+	# Get first populated tags, here I chose 1
+	pop_1tag, c_1tag = CleaningBooks().get_first_tags(df_merge, 1)
+
+	# Again update dataframe
+	df_onetag = CleaningBooks().update_dataframe(pop_1tag, c_1tag, df_merge)
+
+	df_onetag.to_csv('test1tag-scifi-01-10.csv', index=False)
+
 
 if __name__ == '__main__':
 	main()
