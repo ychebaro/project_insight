@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/starter-template/">
+
+    <title>SciFiCrew</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../static/css/addons.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--<script src="../../assets/js/ie-emulation-modes-warning.js"></script>]-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Sci-Fi Crew</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<br><br>
+  <div class="container">
+
+      <div class="starter-template">
+          <h2>Hello sci-fi user!</h2>
+          <p>Enter your Goodreads user id<br>
+          to get match for a sci-fi bookclub</p>
+      </div>
+
+
+      <div class = "container">
+
+        <form  action="/output" method="GET">
+          <div class="form-group">
+            <label for="user_id">User id:</label>
+            <input type="text" id="user_id" name='user_id' placeholder="e.g. 1073"><br>
+            <label for="nb_users">Number of people in the book club:</label>
+            <input type="text" id="nb_users" name='nb_users' placeholder="e.g. 5"><br>
+            <!-- <label for="review_type">Do you specifically want positive/negative reviewers?:</label> -->
+            <!-- <input type="text" id="review_type" name='review_type' placeholder="e.g. "> -->
+          </div>
+
+          <div>
+            <button type="submit" class="btn btn-default btn-lg">Find these sci-fi readers!</button>
+          </div>
+
+        </form>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+      <script src="static/js/bootstrap.min.js"></script>
+
+  </div> <!-- /.container-->
+
+  <div class="container">
+      <div class="starter-template">
+        <h3>Results:</h3>
+        <p class="lead">Here are some potential readers with similar taste to form a 
+          book club with!<br></p>
+      </div>
+
+      <table class="table table-hover" width="100">
+      <tr><th>Name</th><th>Goodreads id</th><th>Reviewing style</th><th>A book they enjoyed</th></tr>
+      {% for user in users %}
+      <tr><td>{{ user['name'] }}</td><td>{{ user['user_gr_id'] }}</td><td>{{ user['reviewing_style'] }}</td><td>{{ user['title'] }}</td></tr>
+      {% endfor %}
+      <!-- <tr><th>John</th><th>45801</th><th>positive</th></tr> -->
+      <!-- <tr><th>Avery</th><th>902935</th><th>positive</th></tr> -->
+      <!-- <tr><th>Nina</th><th>358542</th><th>positive</th></tr> -->
+      <!-- <tr><th>Daliang</th><th>1918385</th><th>positive</th></tr> -->
+      </table>
+
+
+   </div><!-- /.container -->
+   
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+  </body>
+</html>
+

@@ -1,0 +1,699 @@
+user_id_csv,user_idx,user_id_gr,Average sentiment,group_x,book_id,title,group_y,names
+1073,0,b5f937e40b9cb0e2eecb4ba2365e2019,positive,35,13827,This Immortal,35,Will
+1272,1,8bf745a1e2b3ec721ad079990111f114,positive,34,44688,"Magician's Gambit (The Belgariad, #3)",34,Khaldoon
+1440,2,7543374af03e015ffc03268e0b4fde1c,positive,34,1307,"Fire Sea (The Death Gate Cycle, #3)",34,Anson
+1639,3,951a6001dea709fe3743516b144634ea,positive,6,773547,"Solo Command (Star Wars: X-Wing, #7)",6,Danila
+1826,4,4a9cc023eed8850449791aadfd20c482,neutral,29,816901,"Worlds of Honor (Worlds of Honor, #2)",29,Dong
+2644,7,feafbae6a2cf100c84a712edd03e930d,positive,31,92121,Nine Princes in Amber (The Chronicles of Amber #1),31,Tim
+2674,8,1c273b24a02769e228c09f4f9d6dd63b,neutral,28,10433900,"Variant (Variant, #1)",28,Divya
+2841,9,4cbecbc15af3db041a8e0f594c642bb5,positive,37,15791566,"Chew, Vol. 6: Space Cakes",37,Aleksandr
+3177,10,553271d597f63503ffc2077b116d01d8,positive,33,973565,"Lord Foul's Bane (The Chronicles of Thomas Covenant the Unbeliever, #1)",33,Elham
+3545,11,fcf087290b8c3f96a442f858809bf6ef,positive,32,22236535,"Atlantis Rising (Atlantis Rising, #1)",32,Avery
+3615,12,a2f38c2c607f53e5c46b9b4271c4c5a9,positive,22,264946,"Hominids (Neanderthal Parallax, #1)",22,Daniel
+3730,13,13f55f0cb088e00687f68ae40ea5d11f,positive,9,26689,"Thunderbird Falls  (Walker Papers, #2)",9,Maryam
+3883,14,ddb35fd0fbb0b71f2fa56d1e26633e8f,positive,22,12811730,"Enslaved (Eternal Guardians, #5)",22,Dong
+4113,15,9da326d91927727ed8ae43461f80b08c,positive,37,353700,The OMAC Project,37,Jesse
+4458,16,a2ccb1614eb218c078b6cfa55e8745bb,positive,9,10523073,Phoenix Without Ashes,9,Piyusha
+4629,17,7daf5c59e2b63aa8175bdbc664e7bc1b,positive,26,10374257,"Pale Demon (The Hollows, #9)",26,Julia
+4920,18,997e08b2323d9bfc06fe35b18274f725,positive,36,25700557,"Better World (Legacy Code, #0.5)",36,Chang
+5586,19,446728d221c1343b92e1e4ff5545a843,positive,26,60185,The Bizarro Starter Kit,26,Maryam
+5666,20,0dca3d40440078319639dfda884655dd,positive,27,500743,"The Wizard Heir (The Heir Chronicles, #2)",27,Adam
+5802,21,405965e995cf54fa346c40f611148e7c,positive,31,207034,"The Prophet of Yonwood (Book of Ember, #3)",31,Avi
+6584,22,08d805375530cc208801531ca7fdefbc,positive,23,41865,"Twilight (Twilight, #1)",23,Jesse
+7006,23,a7f35d6bb43b53dab3743ade7be949b7,positive,23,7857711,"Masques (Sianim, #1)",23,Khaldoon
+7289,24,3a05839232db02692ef070ebc0fe6469,positive,17,10048874,"Dearly, Departed (Gone With the Respiration, #1)",17,Zhen
+7409,25,653cd645b91a893401bdf8813f309f49,positive,32,303455,"Among the Free (Shadow Children, #7)",32,Kai
+7441,26,f5343cf39c3f9eb8eeb281a7450f6f87,positive,32,32429,Dragon Tears,32,Anamol
+8065,27,666a01111f672fb40ea1cb59ba77e1c8,positive,26,1828067,"Grimspace (Sirantha Jax, #1)",26,Jisong
+8094,28,880dc69f3de6d55a0623d61dedd49868,positive,17,10553047,"The Twisted Tragedy of Miss Natalie Stewart (Magic Most Foul, #2)",17,Nathan
+8648,29,4708d71de2f8afe1064a703312b022b5,negative,29,23008150,Into the Dark (Alexis Carew #1),29,Wenke
+9550,31,ea91003989585faf08183c627feb5de6,positive,34,189811,"King of the Murgos (The Malloreon, #2)",34,Xu
+10582,33,49a744b185c182d4840c7feeaefbea6f,positive,17,12926806,Survive,17,Avery
+10644,34,eaa54d876d841293059657fb80a9bba6,neutral,37,12760503,"Fated (Alex Verus, #1)",37,Anna
+11210,35,19a301addc72acb8e6d284cda8123077,positive,12,3475161,"Turn Coat (The Dresden Files, #11)",12,Divya
+11904,37,46e23d760843b8c9a4108a55cd92413d,positive,37,1734463,"Airborn (Matt Cruse, #1)",37,Peter
+12089,38,9910aa4858a762300ea81224caccaa37,positive,19,6587879,Horns,19,Xu
+12290,39,d482fe133d8d1d8c0bf1ab0ca7f0e65a,positive,23,7011403,"Dragon Haven (Rain Wild Chronicles, #2)",23,Avery
+12362,40,88210a9e22b08c0f025e0e962a177ba3,positive,26,3217299,"The Declaration (The Declaration, #1)",26,Steven
+13179,41,9cf35d6cdeaa7646e43f294d941e0ad1,positive,29,105931,"Ultimate Fantastic Four, Volume 1: The Fantastic",29,Brandon
+13273,42,6630745c0493f8cfb5c5b15dc7cd879b,positive,33,6587879,Horns,33,Jane
+13749,44,d92f95b95d015036cecf4b7ba92ff8ad,positive,32,961291,"Plague Ship (Solar Queen, #2)",32,Anamol
+14075,45,7472fdb232f554be6c4bf3db3e05964a,positive,32,22609309,Cannonbridge,32,Jesse
+16094,47,9214299abceaf4020e3c9f97696191c4,positive,6,3472340,"The Affinity Bridge (Newbury and Hobbes, #1)",6,Anson
+16781,48,aefe566b7b0715a77f19883c060ad241,positive,32,25109947,Lovecraft Country,32,Gabriel
+16943,50,f27a3400d1c66b0ebc5d0b4fab1c5a8c,positive,31,63432,"3001: The Final Odyssey (Space Odyssey, #4)",31,Jason
+17408,51,c1802c5f49aa2e39e9671e986eae2de8,positive,12,12040447,"Shadows in Flight (Ender's Shadow, #5)",12,Anna
+18183,52,2f47b1e2eda9eaea1979d15554f14873,positive,28,3347728,"Busted Flush (Wild Cards, #19)",28,Brendon
+18474,53,63ee50c51da8b19710f299831a1b6995,positive,27,20893315,"The Future Falls (Gale Women, #3)",27,Zhen
+18698,54,66c5cf79205cd32d327bd10213321c31,positive,7,22424,"Transmetropolitan, Vol. 10: One More Time (Transmetropolitan, #10)",7,Eric
+19255,55,e956ca90ba23174bbbccf1161ab19150,positive,31,171125,The Carpet Makers,31,Keyvan
+19477,56,a450572e863a15754d12c25c6610955f,positive,27,140143,"Issola (Vlad Taltos, #9)",27,Daliang
+19495,57,2d83dd909c236f532cd423e26f85bcc9,positive,6,29455,"Night Train to Rigel (Quadrail, #1)",6,Randolph
+20173,58,5e2b66699819825a5779ebd11a374bba,positive,34,580446,"Unnatural History (Pax Britannia, #1)",34,Brianne
+20733,60,022f5118b9b71e4c31f42ce9bf03f3a2,negative,29,76778,The Martian Chronicles,29,Victoria
+20915,61,0f3197638ef16436c776266cd8ac5326,positive,32,11483781,Temporary Duty,32,Takaoki
+21419,62,8cdda62099c3a1871d6cb54f84fc6727,positive,22,96131,"The Nymph King (Atlantis, #3)",22,Victoria
+22039,63,c2579fbf15fdad5cff26de01fe973db6,positive,6,13421230,"Perdition (Dred Chronicles, #1)",6,Pablo
+23519,65,f45ac1f37f5fca850055457c7fa38a13,positive,27,6376816,Lucan (Pendragon Legacy #1),27,Peter
+23823,66,313f43da343b16e4a3cf466b0b285648,positive,31,50837,"The Menace from Earth (Future History, #18)",31,Pablo
+24079,67,b033ace5e31330b8ffd48b06bcff7639,positive,34,50840,Farnham's Freehold,34,Julia
+26706,69,7e4326b3a58d9c63117678603755ae52,positive,31,125332,"The Capture (Animorphs, #6)",31,Kaveh
+27129,70,909e430324d1d07372797a539e9c114f,positive,35,22214720,Coffin Hill Vol. 2: Dark Endeavors,35,John
+27371,72,80f2125bfbed5051dbdf401b0aa3585d,positive,9,13059026,The Manual of Aeronautics: An Illustrated Guide to the Leviathan Series,9,Xu
+27787,73,fb58b5bdaaf338cea1b5c21f02fda8cc,positive,29,356343,"B.P.R.D., Vol. 4: The Dead (B.P.R.D., #4)",29,Peiyu
+28634,74,9003d274774f4c47e62f77600b08ac1d,positive,28,8835379,"Ruby Red (Precious Stone Trilogy, #1)",28,Yaarit
+28742,75,59e64ca88487c2848344624cc52cf199,positive,9,564236,Planet X,9,Kai
+29047,76,26538f0f360954a65d7ef0dff0624a96,positive,37,15517815,Redshirts: A Novel with Three Codas,37,Corey
+29072,77,73ed3afab34a50959b601aef0bad05bd,positive,9,127586,"The White Dragon (Pern, #3)",9,Tim
+29671,79,4b7aeb80b748f730d4b09a0ac6dc7131,positive,33,3398430,The Caryatids,33,Tim
+30212,80,da7a0c5ee0c89973224d8853445be68e,positive,32,1345816,"Parable of the Talents (Earthseed, #2)",32,Paul
+32235,84,304f0e1f04c4d4625b349365699c3b6a,positive,6,6309140,In Great Waters,6,Avery
+32665,85,ca1c301fff032671a4fd555429db2298,positive,31,17715227,Seeking Dr. Magic,31,Bennett
+32717,87,b83200ad3d99dbcbfd5bc31e5ff07f40,positive,27,25163956,"City of Blades (The Divine Cities, #2)",27,Ali
+33019,88,a0ae3f368238d27f577844589cad7baf,positive,12,18068907,"Court of Fives (Court of Fives, #1)",12,Antoine
+33334,89,cec77035cef250b558adb6cc3a46c6e9,positive,17,18809215,"Revival, Vol. 3: A Faraway Place",17,Anson
+33344,90,5b52da4ecce7b6fc61f90c158d9ec546,positive,28,13125947,"Reached (Matched, #3)",28,Khaldoon
+33812,91,c31e9a72659f9ac5bfd3835c400e6d80,positive,32,6512051,"Bone Crossed (Mercy Thompson, #4)",32,Ilia
+34069,93,fc61256005656a4cd583162522f7c374,positive,9,96063,The Speed of Dark,9,Avi
+34388,95,2ceeadcc5dfb70bce02719b8523e2adb,positive,31,475442,"Bloodline (Repairman Jack, #11)",31,James
+34501,96,e3ef384e8dcc8565386d6b3da1579ed0,positive,33,353325,The Motion Of Light In Water: Sex And Science Fiction Writing In The East Village,33,Daniel
+35757,98,5096731608211f5ab09a1f4e80cc1e3d,positive,23,7516001,Discord's Apple,23,Avi
+36074,99,f6e0d71eed847c270bd0d7fff96f2bd5,positive,7,7670,The Andromeda Strain,7,Kaveh
+36119,100,395934a50d7a4099c0e846a956cdbf30,positive,32,18943,Confessions of an Ugly Stepsister,32,Danila
+37290,101,ab6f1c002881956851e6e36327244d67,neutral,9,12392681,Railsea,9,Wenke
+38087,102,c3cebe0b5f14b35fee5b71bfffe440fe,positive,12,123673,"A Case of Conscience (After Such Knowledge, #4)",12,Aleksandr
+38850,104,a3ebf0d46b5ec9e5fa19230be556da94,positive,33,2484290,Duma Key,33,Adam
+39263,105,e833ab1ff1feea957b64e4c8c1a8ff41,positive,9,22355,"Doom Patrol, Vol. 1: Crawling from the Wreckage",9,Chang
+39740,106,2e9db2eed4ada149ef3fe6b9256c7e8b,positive,32,10791807,"Forbidden (The Books of Mortals, #1)",32,Piyusha
+40554,107,08d1e8f498fb969eb113fa42b3ac1016,positive,9,7171179,"Mouse and Dragon (Liaden Universe, #7)",9,Yaarit
+41030,108,2f1bd7f8293200c03af16435f17483a3,positive,6,28953458,"Unquiet Land (Elemental Blessings, #4)",6,Abhigyan
+42675,109,818a07d4b1a085d65a3851c9f68f148d,positive,16,472331,Watchmen,16,Bennett
+42771,110,bdb7fe54acffaff503d772dcdb546ea5,positive,15,23161991,"The Cause (The Minutemen Series, #1)",15,Victoria
+43104,111,83d4c1428afe4b0df30af8fc55bd273c,positive,31,18310944,The Sandman: Overture,31,Kai
+43733,113,782b10e8bbfa0e677e80210326c54d66,positive,32,31341,"Blood And Gold (The Vampire Chronicles, #8)",32,Anna
+43757,114,fe42a5a8c82474a362ab80a624b1b619,positive,9,1811543,"Magic Burns (Kate Daniels, #2)",9,Kevin
+43905,115,8b12b0ff0b97bd382cd9ecda47b3f7d2,positive,31,215539,"The Pilgrims of Rayne (Pendragon, #8)",31,Dong
+45858,117,bb1266acd6c2c326f42ac083a4e5ae80,positive,36,13595508,"Tiger (New Species, #7)",36,Nina
+46387,118,928755f9bc237e47ed239acf48b06098,positive,26,20860316,"Deadfall (Blackbird, #2)",26,Jane
+46810,119,675a42fc9afdc6a5441d9a37f33f021f,positive,9,5292173,"Relentless (The Lost Fleet, #5)",9,Jesse
+47221,120,79423049f862e94f1022f736a3c22cc1,positive,29,13001274,"The Woman Who Died a Lot (Thursday Next, #7)",29,Divya
+49024,121,fda1d548198de4667a96980b635bd0cc,positive,37,6080704,"Parasyte, Volume 8",37,Elham
+49117,122,63eb5a9ea6fbce905e96dadf97e60c93,positive,17,1194366,The True Meaning of Smekday,17,Adam
+49770,123,93972372de3f68a88ea86cc2b382cbf4,positive,22,32423,Watchers,22,Jingji
+50556,124,f9a9c93d44b92bba276e4e4dd6782f02,positive,36,13702218,"Capturing Cara (Dragon Lords of Valdier, #2)",36,Jisong
+51172,125,8fed90c56fa16cabb3e2dfbd92dbeb35,positive,16,822,"The Confusion (The Baroque Cycle, #2)",16,Brianne
+51624,126,1341b307d5c621e8c5a00163ce52bcb9,positive,28,13450339,"Poison Princess (The Arcana Chronicles, #1)",28,Chang
+51812,127,60f823c87fef8b8b87d37ca33d0306d4,positive,31,6043848,"The Knife of Never Letting Go (Chaos Walking, #1)",31,Alec
+52115,128,d321b1bcf294bca33510816afd898eb3,positive,28,59219,"The Talisman (The Talisman, #1)",28,Brandon
+52713,129,c96ef78de7028e9ed7002356fb800a52,positive,37,13576260,"Buffy the Vampire Slayer: Freefall (Season 9, #1)",37,Jisong
+54366,130,0b4a9b221f57daf39e38f044c688e283,positive,7,17910129,Afterparty,7,Peter
+54748,131,9041bdd923e2f0344c215acb0a5cd3f1,positive,32,896841,"The Sparrow (The Sparrow, #1)",32,Jesse
+55117,132,1721679b42057884df03ae20ad6a0eb5,positive,34,16156292,"Blood of Tyrants (Temeraire, #8)",34,Wenke
+55554,133,1cbd6510780654822ffbe90972c04627,positive,33,7202041,"The Body Finder (The Body Finder, #1)",33,Brendon
+56579,134,4f40bf5378b15419c54d27e94be6e77d,positive,31,334620,Lirael,31,Zhen
+56947,135,002a023d3de233b4bd3ec4fc3e9c581a,positive,34,13542654,The Cassandra Project,34,Anamol
+57513,136,a50fa313c8c4fc1e2f4c5522bc15845a,positive,26,7901864,The Hundred Thousand Kingdoms,26,Steven
+59659,138,ced4d71446128a2955118da24c1f21d5,positive,9,13608990,The House of Rumour,9,Mahsa
+59983,139,fdc4c95ff61ed6f9b80992502e8fdc8a,positive,17,7106964,"The Extraordinary Secrets of April, May, & June",17,Wenke
+60269,140,18ee50445cbff3a198b9bca59ad4a3f9,positive,37,15798794,"Worlds' Finest, Vol. 1: The Lost Daughters of Earth 2",37,Bilal
+60325,141,9659f9767df3bc58d8f1cd31af2a48a0,positive,31,21787,The Princess Bride,31,Yaarit
+62387,142,6d9b6287fb3c1083eb16ece8771824bb,positive,36,10438093,"The Hollows Insider (The Hollows, #9.5)",36,Keyvan
+62837,143,de7276303ce38ec4870131a35b5a4d41,positive,31,2590200,Those Who Went Remain There Still,31,Kaveh
+63656,144,1609f345b940415ddf3037c3f8d85965,positive,15,22587,Divine Invasions: A Life of Philip K. Dick,15,Nathan
+64493,145,28c44efc066600c9e31680c4f81426c2,positive,29,830502,It,29,Nathan
+64827,146,6025044bcdb528841bdde0c0a5641e21,positive,33,302702,Mirrorshades: The Cyberpunk Anthology,33,Julia
+65807,148,cd3d26d0f07433c7bb38af11538643c9,positive,23,12476223,"An Officer's Duty (Theirs Not to Reason Why, #2)",23,Antoine
+66840,149,2120d90433c242c1bebc3973e8eadf6c,positive,32,15309,"The Laughing Corpse (Anita Blake, Vampire Hunter, #2)",32,Chang
+68139,152,c039c4ab5ae526839c53eb0acb34cfbe,positive,31,367993,"Catch the Lightning (Saga of the Skolian Empire, #2)",31,Jingji
+68166,153,ac1f8cb05733d765da3f7b2f30677cbf,positive,27,18196040,The Walled City,27,Kevin
+68406,154,0abbdc6dd66cbe4e52e9123f58a86e6e,positive,4,6488483,"The Walking Dead, Vol. 11: Fear the Hunters",4,Lili
+69409,155,c5058fad224f30a3f7a1680ee705b373,positive,32,17017081,Cloud Atlas,32,Dong
+69818,156,459a6c4decf925aedd08e45045c0d8c6,positive,9,558230,"Naked in Death (In Death, #1)",9,Paul
+69857,157,ef8f4e8a1391f7d2ff96f386967553c3,positive,7,1265289,The Automatic Detective,7,Daniel
+70009,158,b0ed09d14a462cb2d27327b87edf6f68,positive,12,15784099,"Three Parts Dead (Craft Sequence, #1)",12,Anamol
+70076,159,1d945500234cbc7a6138a4d017dbfe4b,positive,4,10557843,"Invincible, Vol. 14: The Viltrumite War",4,Antoine
+70421,160,efadbd19a7c97f5b6f323a563daf50e6,positive,16,6555278,Sleeper Season Two,16,Ilia
+71024,161,3a0fb6f787464811fc2eb85ec711df72,positive,34,500743,"The Wizard Heir (The Heir Chronicles, #2)",34,Maryam
+71326,162,5107d23fde9695eae059df34dc45c664,positive,19,47958,"Shadows and Light (Tir Alainn, #2)",19,Will
+71414,163,1674acd92d492eb2165bbd38cf08d8e9,positive,16,29939089,"Winter Tide (The Innsmouth Legacy, #1)",16,Julia
+71655,164,528513926efc49740693df93112bd446,positive,9,13353667,Zoo,9,John
+71780,165,d029dc3d13a17f66da3eda6454afd5d6,positive,31,768119,The Fate of Mice,31,Brianne
+71991,166,16406f9ee3a7a32b47f1412cca12212c,positive,4,12364183,I Am an Executioner: Love Stories,4,James
+72697,167,aa2abf7d3601c8875c89ed826ec6fa9f,positive,6,596878,"A Hat Full of Sky (Discworld, #32)",6,Mahsa
+73696,168,e7fec4c1585427f4f18c1fe4ab0978a6,neutral,33,320344,"Rebel Dream (Enemy Lines, #1) (Star Wars: The New Jedi Order, #11)",33,Jason
+73785,170,e039e16a71b434b291d6f9d5543b6de7,positive,6,2678758,Tigerheart,6,Anna
+74130,171,c67aa06c32d5ca4193d8e11c351dc7d8,positive,35,18222765,"Game Over, Pete Watson",35,Daliang
+74518,172,6943393b4bc61422a4a468cfee8b190e,positive,37,8513471,Elmer,37,Paul
+74893,173,1a3e7169323c89966f3fdea942ad90f5,positive,32,11500217,"Angelfall (Penryn & the End of Days, #1)",32,Daniel
+75254,174,a0deaae9cf73c2ac399ae3d29d5fb995,positive,19,1931915,Bruiser,19,Anna
+75324,175,2e8fdb2d35a18c604e5c1b78ec92faf6,positive,9,1225621,"The Outlaw Demon Wails (The Hollows, #6)",9,Tim
+75420,176,5d6d5c72154dcf71a109d9e692e4d980,positive,12,6993091,The Dervish House,12,Nina
+75844,177,5a1de0997778a6c9c4adff89a5f02de8,positive,27,9858517,"All These Things I've Done (Birthright, #1)",27,Abhigyan
+75904,178,55e178781723d45181f0db40a2e5a782,positive,34,8469631,Pilot & Huxley: The first adventure,34,Bennett
+76560,179,82542f712eceaf5a9f6252e3ca09686d,positive,7,11487807,"Throne of the Crescent Moon (The Crescent Moon Kingdoms, #1)",7,Bennett
+77237,180,fd3194401d700361766d34dbc537a28f,positive,16,6635349,"Nova War (The Shoal Sequence, #2)",16,Lili
+78210,181,1f06bb175274d495e3e135c8df0d4b3b,neutral,37,59961,Give Me Liberty,37,Kai
+78732,182,ab6fdf600c37cb913eb11ceae8c71751,positive,28,16064396,"The Vanished (Blemished, #2)",28,Julia
+79160,183,de77d73a5c1000b671e0f08e875d4f08,positive,15,3227063,"The Way of Shadows (Night Angel, #1)",15,John
+79261,184,76f8b817e77e21cd1c3539a8a0f6772c,positive,29,15809993,The Hobbit,29,Jason
+80774,185,466d87da9ff4b1319c64a77aa3e07d3f,positive,37,831829,"30 Days of Night, Vol. 1",37,Alec
+80989,186,de76e3dfb502abb5edb821af329d2a4d,positive,28,3004139,The Little Book,28,Lili
+81604,187,4381979f74a63a826e03742cecf664a8,positive,16,25520,The Law of Love,16,Danila
+81629,188,ccf944f8aca6814c1ec21cad667b7123,positive,23,15827297,The Firebird,23,John
+81948,189,405f93457153b8fcc5887f6d3e52975b,positive,15,7828637,Transition,15,Zhen
+84450,190,af34f73cabb72d4480eb6be2b20f2746,positive,28,7826116,"Behemoth (Leviathan, #2)",28,Gary
+84934,191,b70962b73d3a34b919b3da0cfd71cd13,positive,32,25810091,The Never-Open Desert Diner,32,Abhigyan
+86412,192,1e4bc3467ddf378b3ca0c1399bcfdb1c,positive,23,61898,"Beguilement (The Sharing Knife, #1)",23,Keyvan
+86777,193,f8019b36ddc20e8062a4260851a1efe0,positive,35,18114292,The River of No Return,35,Ali
+88340,194,8c1c357c3d46bf3dcf7051ba98559c7d,positive,4,17929633,"Chew, Vol. 7: Bad Apples",4,Takaoki
+91057,195,e685f1344227d293b1c657d440bddeed,positive,6,6975601,"Havoc (Malice, #2)",6,Avery
+91127,196,dc80d6379ba36f99d74bd1e3e26b7d8b,positive,28,13599291,"Dance of the Red Death (Masque of the Red Death, #2)",28,Bilal
+91633,197,e083e55ba663ea12a3d78d3194b57fed,positive,17,21843165,Revenge and the Wild,17,Jingji
+92466,198,ec6b32cc7b9cc248bad141ed67fb2537,positive,29,710706,"The Stainless Steel Rat Gets Drafted (Stainless Steel Rat, #2)",29,Peiyu
+92657,199,085913f7ee612e31e5e8b2667a379a07,positive,6,547448,"In the Cities of Coin and Spice (The Orphan's Tales, #2)",6,Elham
+94370,201,414854ccbe367d9cb5a97d159b40cf2f,positive,16,76778,The Martian Chronicles,16,Daniel
+94493,202,32d357816662ecd672f39bb06b909b21,positive,19,10439703,"Aloha from Hell (Sandman Slim, #3)",19,Shinjini
+95336,203,2097c2bc8a799e0a94f5699294bd3171,negative,15,23937,The Soft Machine (The Nova Trilogy #1),15,Eric
+95429,204,96d7adfd43688a82e51cbf70ae452f3e,positive,27,18599640,"The Tomb of Shadows (Seven Wonders, #3)",27,Ilia
+95743,205,61782855519db08c821dcf59b00f3ee0,positive,31,16071827,"Black Feathers (Black Dawn, #1)",31,Nathan
+96310,206,99640583f232a13c971391b43c3a1850,positive,31,7955,"Empire (Empire, #1)",31,Gabriel
+96526,207,d391279adb868b7392457b657e654174,positive,32,7353243,Masked,32,Takaoki
+96557,208,061eb5e5b4cbdc7d59c285025294ac4c,positive,19,500743,"The Wizard Heir (The Heir Chronicles, #2)",19,Maryam
+97742,209,a9392d07c005e747b1a8a1dd3b3bc7d5,positive,27,10699613,Vampire Academy,27,Maryam
+98248,210,f38ce507001ae1660b1bdc06abef0b1f,positive,16,301082,"Dead Until Dark (Sookie Stackhouse, #1)",16,Victoria
+98618,211,af60ce5704a5593ff41df605dd0001ce,positive,29,337019,"Polaris (Alex Benedict, #2)",29,Khaldoon
+100968,212,4a4b4f5faff0232040738a4e92dd736f,positive,22,17727267,"Defying Fate (Descent, #6)",22,Alec
+101596,214,964461db234739521f7b56a113aa1fdd,positive,32,100786,Phoenix Rising,32,Antoine
+102983,215,6067a0e06410539991c0de9f890ac81a,positive,36,18050018,"Creators (The Lost Souls, #3)",36,Jane
+103333,216,e2c16419e31aa3265d802b5f0256ce44,positive,6,9766156,"The Falling Machine (The Society of Steam, #1)",6,Khaldoon
+103708,217,bf0bc3acbc194dc232927873987a0967,positive,31,85653,"The Praxis (Dread Empire's Fall, #1)",31,Danila
+103888,218,3171491a7a6a5f63ad5b7ff482cf586c,positive,6,1150189,"The Undead Kama Sutra (Felix Gomez, #3)",6,Abhigyan
+103989,219,6caeea1315643facc28258d498c130f8,positive,12,11476589,"Echoes of Betrayal (Paladin's Legacy, #3)",12,Paul
+104712,220,bf3e06517cc4c85e5e7616a3f101a5cf,positive,22,14461,Kitty and the Midnight Hour (Kitty Norville #1),22,Tim
+104779,221,58a904d991f86bd4e353b3d9c881323f,positive,33,218467,Lucifer's Hammer,33,Divya
+105252,222,d286122fed6ded84ff53993335bfd59c,positive,12,8866354,"The Hot Gate (Troy Rising, #3)",12,Peter
+107542,225,d33ca46baa08df71462e94c7bf90bdb5,positive,22,1162544,"Breaking Dawn (Twilight, #4)",22,Pablo
+107771,226,6d864aa70b65ddc62054b47c97d8684c,positive,7,182425,False Memory,7,Anamol
+108400,227,a6cbfded0f87328f3006c80941c0aca4,positive,25,18105471,Mantequero,25,Antoine
+108444,228,742560bf533ad64ea75b04e6c1e7697a,positive,34,97967,"Mystic and Rider (Twelve Houses, #1)",34,Corey
+109363,229,4f07c948b68e80f48dcf5db983adf5b6,positive,34,6578909,"Dragon Games (The Books of Umber, #2)",34,Randolph
+109721,230,1c28c471aa84a1ca3a8882a637d7a76d,positive,29,64396,"The Adventures of the Stainless Steel Rat (Stainless Steel Rat, #4-6)",29,Wenke
+110535,231,bede040dd2e4f26fa18efb3a44ef0eba,positive,22,11755094,"Celestial Seduction (1Night Stand, #17)",22,Eric
+111436,232,cdc18146a5d9c120dc2411027d0bef90,positive,23,438311,"Little Sister (Mitsuko, #1)",23,Corey
+112127,233,b1663775143180c46354ff74612d0ea0,positive,31,2855034,Nation,31,Daliang
+112436,234,ffe85ffe7b49f673b859add8cf50ea0f,positive,32,13647,"Voices (Annals of the Western Shore, #2)",32,Piyusha
+112737,235,484723c40aee3a9a82c856ea0114e07e,positive,19,263731,"The Decoy Princess (Princess, #1)",19,Abhigyan
+114119,236,11d92d8a1266aea297ef7e4c1d6c7a2d,positive,31,17183279,"The Last Swordmage (The Swordmage Trilogy, #1)",31,Pablo
+114419,237,8f17198031e0d85669b482817392f8cf,positive,31,20697444,Monstrous Affections: An Anthology of Beastly Tales,31,Steven
+114782,238,ba7f50286295186a87feaeb42af2ebc1,positive,31,1162543,"Breaking Dawn (Twilight, #4)",31,Eric
+115328,239,2e460d742654b3c7bfda044200bdff2c,positive,34,213647,"The Warrior Heir (The Heir Chronicles, #1)",34,Anna
+115346,240,b28c31a1a07f1497a78f98a04494a10d,positive,12,1176964,"Dreadnought! (Star Trek: Fortunes Of War, #1)",12,James
+115584,241,dd669721e136c1be47d739b14fa23d20,positive,35,25810226,Zodiac Starforce: By the Power of Astra,35,Brianne
+115751,242,5ae43260d8b394ec633fd3bd9ba295f3,positive,12,3227063,"The Way of Shadows (Night Angel, #1)",12,Gabriel
+116461,243,d178bda7a128ff3a5c3d74f362b67225,positive,6,1537540,Golden Witchbreed,6,Randolph
+117468,244,64a4f1a7411733b46e7ac59545eb870a,positive,33,96284,Remnant Population,33,Will
+117523,245,26ca15d10051306fdc19aeaed580671a,positive,29,96478,Kiln People,29,Kevin
+117548,246,7e2119cb5f3623bc739bcd5fee537c5a,positive,37,25849,"The Drifting Classroom, Vol. 1",37,Bennett
+118418,247,7137aca1fbb3d05dc3102064be474201,positive,26,8138071,"Pale Demon (The Hollows, #9)",26,Chang
+119344,248,e348e457e73d136b1a329033ec719a07,negative,6,34539,"Going Postal (Discworld, #33)",6,Brianne
+119723,249,092e45a8ba9cf45485c4074ee5b52bf9,positive,6,12392681,Railsea,6,Ilia
+119813,250,d8d4cad6c612f47c781143d35255d497,positive,16,34527,"Feet of Clay (Discworld, #19; City Watch, #3)",16,Julia
+120070,251,4251532f32b7e8b98912188f4d962eb1,positive,12,7358135,"The Enemy (The Enemy, #1)",12,Takaoki
+120658,252,d2d1e93b59f167eacc179ec5f6658511,positive,31,13260060,"Jaina Proudmoore: Tides of War (World of Warcraft, #11)",31,Avi
+120779,253,178a30249348d69f332412f8d5591e47,positive,37,13570764,Prepare to Die!,37,Anamol
+121176,254,994db620fa2dfdde31bd9f437170ef8b,positive,7,12139894,Immobility,7,Wenke
+121320,255,1b581959539c52b0796deeae4edbe14a,positive,22,15790603,"Terminated (Revivalist, #3)",22,Alec
+122633,256,64aa2f5574186ce7ecf2914df71d8cc9,positive,29,9494258,After the Fall,29,Peter
+122936,257,3e435fffbdc253dd982c397a9a845816,positive,7,1104759,The Dog Said Bow-Wow,7,Alec
+122946,258,d0d7cc7e2e1739d03fab5e3d02f6e365,positive,33,8460959,Lost in Cat Brain Land,33,Xu
+123584,259,69c66cfac49ff3d4f150cb86362f33dd,positive,7,30199444,The Warren,7,Ali
+123810,260,a37a114983cc51fa460ae8ffbf82b096,positive,15,7285601,"The Hunger Games (The Hunger Games, #1)",15,Tim
+124660,262,67fd1cf228c111896486c265e8bce4ea,positive,6,618198,"Restoration (Rai-Kirah, #3)",6,Brendon
+126121,264,b024b78b02743ccf558001189ab31ea0,positive,26,18402506,The Fire (Northwest Passage #4),26,Adam
+126982,265,2edbb0dcf49ad138ef79bd6b5f4ba390,positive,15,1705697,Wastelands: Stories of the Apocalypse,15,Danila
+128427,266,223f66143727c719da47fe2fa18bc55c,positive,31,31341,"Blood And Gold (The Vampire Chronicles, #8)",31,Jisong
+128440,267,1dcc10935c0022c1bd9c7a3067b883c8,positive,4,2349421,Hulk: The End,4,Anson
+128841,268,70d242e03c33d725776354fc56f89140,positive,27,104078,Ysabel,27,Keyvan
+129090,270,3e10cac3ccf031929aa13c8b68f2c3f3,positive,16,17855844,The Shining Girls,16,James
+129862,271,e4983c4e5dc2073a7f689c350439fc2f,positive,32,7507890,"Scumble (Savvy, #2)",32,Brendon
+130623,274,6865598a64057f5503c5c3c2a0265d61,positive,9,7814774,X'ed Out,9,Randolph
+131130,275,0dbe6d79d9f2bc0c48b7460743c98cee,positive,32,8727968,Horns,32,Yaarit
+131365,276,9df12ed82ad8527bb2713a4719fb4085,positive,29,1004057,A Strange Manuscript found in a Copper Cylinder,29,Shinjini
+132667,277,c2cb4a54cd109a3c683e7efdffba2e0f,positive,34,6439287,"The Resistance (The Declaration, #2)",34,Mahsa
+133010,278,5672a5dbffcd62de847a96572e015a62,positive,33,939709,Rogue Moon,33,Jesse
+133160,279,86c50170b8acde454c645ade35f24d78,positive,22,2958520,"Slave (Cat Star Chronicles, #1)",22,Zhen
+133349,280,8d8d52fe0a0038c7eabe41c51c622c81,positive,26,10765906,"The Shadow Reader (Shadow Reader, #1)",26,Dong
+133409,281,9af0b3f9a27c6ee117a43473e470f0d7,positive,9,10762469,The Leftovers,9,Nathan
+133561,282,44c50912963e34f1a3e757ab1d929af7,positive,31,64217,"Pyramids (Discworld, #7)",31,Elham
+133636,283,83dac2fa2bcc6c7f5b9b5540ee070e06,positive,19,28650,"Thin Air (Weather Warden, #6)",19,Brianne
+133806,284,fc8060b56d99d519161dfe22adbb84e7,positive,22,15985372,"Affliction (Anita Blake, Vampire Hunter #22)",22,Danila
+134436,285,14357ee8528f0579abecb423fbc10f95,positive,31,213647,"The Warrior Heir (The Heir Chronicles, #1)",31,Jingji
+134621,286,24e9e739ca9ae7228a02e670c257de98,positive,36,15713700,"Tiger Magic (Shifters Unbound, #5)",36,Avery
+134662,287,e364b3c3702aef6c75bde0948ca6e8d1,positive,23,268439,The Last Hot Time,23,Gabriel
+135263,288,7538ee8f4bd2e982295a07c9ba8cf933,positive,7,8197767,"Ex-Heroes (Ex-Heroes, #1)",7,Will
+136671,289,a0a76a032db5ebc885b3b15e6f0dec0c,positive,33,7329,Unfinished Tales of Númenor and Middle-Earth,33,Randolph
+137290,290,59717d48561cdc1b5492e48af8f702d1,positive,37,2258253,X-23: Target X,37,Mahsa
+138198,291,5de2526b0c6370bd4f0335bb065c65fa,positive,34,991724,"The Outskirter's Secret (The Steerswoman, #2)",34,Anamol
+140548,292,b5c8421ffc993fd49ae9cb70805a8340,positive,29,17306293,"Shift (Shift, #1-3; Silo, #2)",29,Jingji
+141144,293,ec03edf05716d58082c8e4da0e40339c,positive,35,83369,"The Mysterious Benedict Society (The Mysterious Benedict Society, #1)",35,Kevin
+142206,294,4674a9c5dc3fde5506d43d6a737fa059,positive,35,29801,"Scott Pilgrim, Volume 2: Scott Pilgrim vs. The World",35,John
+143001,295,49f3db3a3959514adee92d91dd5ee729,positive,29,71392,Doctor Who: War of the Daleks,29,Kaveh
+143956,296,d94b3f2110609f47265f5ec2f5cd3a3e,positive,34,363420,"The Discovery (Animorphs, #20)",34,Anna
+144959,297,628e248e40f6c68374804446d18cc9be,positive,29,13556942,"Chew, Vol. 5: Major League",29,Gary
+145217,298,1dfa885707de61df6e17afcb9eb4c8f7,positive,7,3475161,"Turn Coat (The Dresden Files, #11)",7,Khaldoon
+146444,299,07272bae1d5cb2e9ad7193c4a2c227dd,neutral,33,97595,"Fire Ice (NUMA Files, #3)",33,Zhen
+146501,300,e3568e4bc8572aade5461509b8f40a5b,positive,27,33505439,DC Comics: Bombshells Vol. 4: Queens,27,Bennett
+147893,303,dabc2df3003ef6cc075033bd525dcf41,positive,31,123063,Under the Skin,31,Danila
+150433,304,f05ea5cce1a020dd91e022dd56b1084e,positive,17,15806684,Steampunk III: Steampunk Revolution,17,Danila
+150698,305,b54cf374c93e1c18e9a44c00428f1e1d,positive,32,10412949,"Aftershock (H.I.V.E., #7)",32,Alec
+152277,307,714c68d99b3eed4db407333e39458f67,positive,36,14296394,"Wildcat (Cat Star Chronicles, #9)",36,Aleksandr
+152415,308,a91fa6d6f82ddcb9a677c4ad5ba0e36c,positive,23,18,The Ultimate Hitchhiker's Guide (Hitchhiker's Guide to the Galaxy #1-5),23,Mahsa
+153445,309,bb11b7456d4e6ba1f98fb82590fbeac2,positive,29,6545916,"Urban Shaman  (Walker Papers, #1)",29,Antoine
+153486,310,f6a9fee1aa4cf1d02da83a71751266c5,positive,7,337048,"The Engines of God (The Academy, #1)",7,Jane
+154981,312,aed35dbc626957174ebedf3c555b63d0,positive,17,15820748,"The Prince (The Selection, #0.5)",17,Keyvan
+155540,313,2c416ed526b5c03c4acb81116f013576,positive,36,23617147,"Peyton 313 (Cyborgs: Mankind Redefined, #1)",36,Avery
+156759,314,cbee765b3eb12b19af6638e693bbb32c,positive,33,6080900,"The Hunger Games (The Hunger Games, #1)",33,Chang
+157705,315,e592483866ae722803c6e40572f9ea4e,positive,21,10401084,"Storm (Elemental, #1)",21,Ilia
+157934,316,2bc6645002e2ed8f8591536376753bf4,positive,31,26114330,"Necessity (Thessaly, #3)",31,Abhigyan
+160335,319,8cf5e7b479644265868bd08e8f64b622,positive,15,991724,"The Outskirter's Secret (The Steerswoman, #2)",15,Brianne
+160830,320,0655077865bb7e44b975ab197109f4dd,negative,9,13330761,The Dog Stars,9,Ilia
+160855,321,cf9e7ec0d08bd6db6f9330378c1239bf,positive,28,21494581,The Prom Goer's Interstellar Excursion,28,Takaoki
+161750,322,94f014216e7774c841b60079e8b2cc1a,positive,23,927979,"Small Favor (The Dresden Files, #10)",23,Jingji
+161882,323,70191716d615a4a9501b0a69588af816,positive,33,43717,Crooked Little Vein,33,Kai
+161937,324,54e08d519623871c5eb93f86c1048edc,positive,22,13096596,"Alien vs. Alien (Katherine ""Kitty"" Katt, #6)",22,Will
+162949,325,3266249d6f77919e351aa2cd8373ab5d,positive,21,9860837,"Ironskin (Ironskin, #1)",21,Keyvan
+163006,326,1fc58f53eb67bcf6c78af62087697449,positive,27,9542,"Cast in Shadow (Chronicles of Elantra, #1)",27,Divya
+164827,327,097459d31d59dffbca0d51b60790a852,positive,17,13318633,"Rival Demons (Peachville High Demons, #5)",17,Gary
+164872,328,c05512c006dd9ccb49b147ce619621d5,positive,4,59706,Top 10: The Forty-Niners,4,Paul
+164918,329,edac8a00c488d38c853a9842e0af51c3,positive,37,678076,Doctor Who: Only Human,37,Wenke
+165354,330,091d8badf5a2ec03bf74c7e7a5954307,positive,27,15745886,"Scarlet (Lunar Chronicles, #2)",27,Daniel
+166404,331,2286392473c3299d8e781ad0456ec360,positive,34,1194366,The True Meaning of Smekday,34,Nathan
+166555,332,c82e1c3af50a3152d1f893f68cd8bcf1,positive,32,336791,"Crimson Empire, Volume 1 (Star Wars: Crimson Empire, #1)",32,Brandon
+167130,333,9cac57f7e6f9a566daa6b74c307ca754,positive,34,7598522,"The House on Durrow Street (Mrs. Quent, #2)",34,Dong
+167153,334,638ee45b5902d82d28f309ee64b11cd4,positive,34,8480676,My Name Is Memory,34,Brendon
+167166,335,afc1c32c9af264a354f5b31759711ef3,positive,31,581732,Exegesis,31,Will
+168648,336,071222e19ae29dc9fdbe225d983449be,positive,32,10264328,Batman: Mad Love and Other Stories,32,Paul
+170698,337,b4da49bb48301eb292e76f2c181b670d,positive,12,9904384,The Lens and the Looker,12,Jesse
+170725,338,98802bd6c1f4368c613f534762c8558d,positive,29,11806849,"The Perfect Prince (Dragon Lords, #2)",29,Keyvan
+171169,340,c2a0de0ae7e60fb366b5ebceb0fb8ea9,positive,25,16159951,"Dark Secrets (Arcane, #2)",25,Aleksandr
+171292,341,c4beb1936459d3dafdbb8034ab70ba78,positive,33,8275167,"Orc Stain, Vol. 1",33,Pablo
+172558,343,e69642c18edb42c8627eeba071f61c6a,negative,32,25659450,Arkwright,32,Adam
+172995,344,046a1b46aa5a661e3f0c41bb10f004a2,positive,19,4223,"The Da Vinci Code (Robert Langdon, #2)",19,Pablo
+173105,345,134803faba66478f638eadd148fcff80,positive,29,22548044,Adventure Time Vol. 6,29,Daliang
+173714,346,5736e1ee58c1a70e0766a9b2bccd0e61,positive,31,2015492,Empress (Godspeaker Trilogy #1),31,Tim
+173881,347,14c69742f5a1d4f70627077e193c523f,positive,32,13538868,SEAL Team 666 (SEAL Team 666 #1),32,Shinjini
+174262,348,8dd05897be187a6eed7cbb35cb358b6f,positive,17,13414964,Velveteen,17,Chang
+174290,349,a88023a157744462e5a1ff207efc6ed5,positive,7,860926,Zima Blue and Other Stories,7,Anamol
+175056,350,d0bfe9704b4da32ec4e82915b7d7f857,positive,32,28159010,The Last One,32,Khaldoon
+176529,351,59aacc8ba03ff1752aab6233bd1db3ff,negative,9,7200884,"Victorious (The Lost Fleet, #6)",9,Dong
+177532,352,192880a878c54aca2be34896229ed1cd,positive,9,1162543,"Breaking Dawn (Twilight, #4)",9,Eric
+180378,353,0379bed68fd44d18ab2d6e5c09bd1553,positive,29,544236,"Alien Taste (Ukiah Oregon, #1)",29,Victoria
+181521,354,2da469ac1881f076f2c42654eba79796,positive,32,30274,"Circus of the Damned (Anita Blake, Vampire Hunter, #3)",32,Corey
+182365,355,7c6be5dcd279f0d681b73661fb9f0215,positive,9,192523,Outbound Flight,9,Gary
+182463,356,434424a3e0e44eadb921c5b6dd13fb55,positive,33,462373,"The Time Traders (Time Traders/ Ross Murdock, #1)",33,Ali
+184124,357,84d5264faa6424a29f32e31b26f10986,positive,22,12541491,"Sterling (Mageri, #1)",22,Danila
+184446,358,ad1ca74a0cc0a92477df7b55a84db861,positive,7,26209242,The Phoenix Descent,7,Brandon
+185294,359,a75d95d44787b7205b08ebde4ce66740,positive,7,7094569,"Feed (Newsflesh Trilogy, #1)",7,Jingji
+188798,360,babc631ce1f8d2deab56f65cee762062,positive,17,10507293,"The Selection (The Selection, #1)",17,Brendon
+188877,361,84994de39f70880d73ad4d80408e46dc,positive,27,15745886,"Scarlet (Lunar Chronicles, #2)",27,Piyusha
+189086,363,526098a3e703d818e50c7e90f3ddd211,positive,19,47212,"Storm Front (The Dresden Files, #1)",19,Adam
+189236,364,abace7be71856657b786263d87b3c1a8,positive,31,797189,"Hogfather (Discworld, #20)",31,Julia
+191736,365,476985d42c60732049323c3c110df9e6,positive,29,29246020,"Scythe (Arc of a Skythe, #1)",29,Steven
+192225,366,c02f1cf5d679b0fe03c812ca64286320,positive,22,6591459,"Deadtown (Deadtown, #1)",22,Jisong
+192347,367,2f2bdae91c34acc8bace9f0f3b71a8ec,positive,23,176804,The Black Gryphon (Valdemar: Mage Wars #1),23,Divya
+194356,368,bcfc0375ea845f4b7beb4ebf674adb38,positive,19,19050244,"The Blushing Bounder (Iron Seas, #0.4)",19,Yaarit
+194591,369,6ac35fe952c608da50153d64f616291b,positive,35,10914780,Science Ink: Tattoos of the Science Obsessed,35,Ilia
+195855,370,fcb41087ee2682d5386649ce28f8be45,positive,33,2945119,The Night Sessions,33,Anson
+195915,371,c0e0fda388f87af0deffad748c9c8b67,positive,25,18098816,"The Undead Pool  (The Hollows, #12)",25,James
+196054,372,fe7d2f1ecc244521ef709c1e7e8cfadd,positive,23,544236,"Alien Taste (Ukiah Oregon, #1)",23,Anna
+196405,374,6e3f5afe9865a7d12dcbdf02a3250829,positive,37,974942,"Tank Girl (Tank Girl, #1)",37,Peter
+198189,375,d24366bb8141002d92cec9e3f4a84e9f,positive,21,13547274,"Fire Season (Honorverse: Stephanie Harrington, #2)",21,Elham
+199756,376,af1a02d61c6485a8d9032f98a3d6dce2,positive,29,822995,"A Clash of Kings (A Song of Ice and Fire, #2)",29,Yaarit
+200018,377,becf890379c7e6dbc22250ab363edd6f,positive,27,7619057,"Warm Bodies (Warm Bodies, #1)",27,Elham
+201541,378,a208803837fef6764d18b3d643aefc09,positive,32,18043356,The Hole,32,Avi
+201767,379,938e8cb8b1e9c791f2edefa3a02bd82f,positive,6,13497,"A Feast for Crows (A Song of Ice and Fire, #4)",6,Abhigyan
+202606,380,99d6216bbcec34230538588314bba381,positive,32,10474309,The League of Extraordinary Gentlemen: Century 1969,32,Jisong
+202864,381,6b7bcb1b73dc9026fed4b5c38d7d56b2,positive,33,13539191,"Three Parts Dead (Craft Sequence, #1)",33,Zhen
+203170,382,87907f3c88ccd4bc6e71e176980b20d0,positive,34,13356174,"Cave of Wonders (Infinity Ring, #5)",34,Corey
+203745,383,7938d8a63f2ac8e5b0455525592b1538,positive,9,77739,"Honor Among Enemies (Honor Harrington, #6)",9,Ali
+204799,384,2ab57bf1a4e3e5534fdd3320214b560d,positive,21,10558533,"Heart of Steel (Iron Seas, #2)",21,Jesse
+205385,385,53db0e2c455b735d4dff1d94f16e83ea,positive,21,7728889,"The Diviners (The Diviners, #1)",21,Anson
+206203,386,99b7c09d9e6f83703d0843d8440e688a,positive,4,13049688,"The Map of the Sky (Trilogía Victoriana, #2)",4,Victoria
+208256,387,c27238c4256010d1595a2182a78a2281,positive,29,2582189,The Horror at Red Hook,29,Paul
+208418,388,8e302a2917b4197ef8e9df3a361bf24b,positive,25,12907355,"A Blood Seduction (Vamp City, #1)",25,Will
+208562,389,f7452be8d96148b9fc9e807355afb1fe,positive,29,7234921,"Earth Strike (Star Carrier, #1)",29,Nathan
+209156,390,53a47ada249517b90794804df14d429e,positive,26,1811543,"Magic Burns (Kate Daniels, #2)",26,Divya
+209530,391,b8ad4b8203cd1f6622767a0d64a798d2,positive,34,989036,"Truckers (Bromeliad Trilogy, #1)",34,Pablo
+209953,393,3e0ee81daa84a4a9b9a8e41b0bd0fefb,positive,23,1113545,"The Candy Shop War (The Candy Shop War, #1)",23,Peter
+211307,394,86ffe3437bb86fa620a0c4886873caeb,positive,26,13594369,Nightwhere,26,Danila
+214657,396,c077e617e7fd1ab0413b434199dd2c24,positive,6,5907,The Hobbit,6,Bennett
+214824,398,3cf7e566dc5590029d02256ca6651f45,positive,22,25241699,Get Jiro: Blood and Sushi (Get Jiro #2),22,Xu
+214889,399,c5235de89f9a292eb9db3e9ceace5290,positive,26,18754402,The Machines of Bellatrix (The Girls from Alcyone #2),26,Kevin
+214906,400,d4c4307716f1d8b830b1d65721c8271b,positive,6,7507890,"Scumble (Savvy, #2)",6,Jason
+215118,401,903f5005497472dde40f8999006f6d52,positive,28,13554480,"Crewel (Crewel World, #1)",28,Piyusha
+215322,402,96552d118e02cd2d7c4c22c2b4ae1c62,positive,21,10812458,"Tomorrow, When the War Began (Tomorrow, #1)",21,Randolph
+215449,403,7da13cec7da44c7252aba70429e076eb,positive,27,9370766,"Memento Nora (Memento Nora, #1)",27,Dong
+216463,404,3149806501673b2390f65a4f9002e355,positive,16,6065889,"The Price of Spring (Long Price Quartet, #4)",16,Anson
+216590,405,95b22f99934e50fa545d40099e3986e2,positive,9,8088,Sunshine,9,Kevin
+216720,406,2d88815743f8502d633075623587dfba,positive,6,9369843,Zoo City,6,Maryam
+217146,407,c5dd2c875c4c5b8b2aad8bc5ef2396f3,positive,31,30244,"The Killing Dance (Anita Blake, Vampire Hunter, #6)",31,Peiyu
+217739,408,1f6806369bd51935c944f802612836bb,positive,32,25659450,Arkwright,32,Ilia
+218512,410,f7980e20ee3a6119614c4d9550de1b0d,neutral,29,15829883,B^F: The Novelization Of The Feature Film,29,Avi
+219337,412,2b8399c1257f58bee9f49352229883cd,positive,15,57948,Batman: The Dark Knight Returns,15,Elham
+219771,413,7b93062f0a0e5a9d1ee5f924f6ec5a8f,positive,7,64217,"Pyramids (Discworld, #7)",7,Lili
+220841,414,76fea8502ab0ef62f31e1e56d944fbc1,positive,33,7079930,"Consider Phlebas (Culture, #1)",33,Will
+221039,415,7e57667c8518f2bcd0b7c13a74e0bb03,neutral,32,428263,"Eclipse (Twilight, #3)",32,Brandon
+221271,416,94a8ad0cf094929493a26e6e9ce26fe2,positive,9,25317,"March to the Stars (Empire of Man, #3)",9,Victoria
+222247,417,f26dcf91eea5a0ab5b44074580e19b29,positive,25,13497,"A Feast for Crows (A Song of Ice and Fire, #4)",25,Daniel
+222937,418,46f4b1de8eefb4f72c05cea2955a172b,positive,31,900932,"Orbital Decay (Near Space, #1)",31,Anna
+223174,419,cbd24aea55b3a533b34c1511f08b4b17,positive,31,177927,"Dragonseye (Pern, #14)",31,Julia
+224121,420,e74bf12dfe132ed793fba533926c6ce6,positive,32,1191527,"A Hat Full of Sky (Discworld, #32)",32,Brianne
+224437,422,e7a99ae4a3f3915e13b877adbe5039da,positive,22,22719550,"Dragonbane  (Dark-Hunter #25; Lords of Avalon, #4; Were-Hunter, #9, Hellchaser, #6)",22,Abhigyan
+224488,423,b7ab2503b4e7dc3e0fe4e48d3751d530,positive,9,12510894,Bridge of Time,9,Mahsa
+224612,424,39f37319610a468d6b2ff1fc933aaffa,positive,6,1595887,"The Goon, Volume 6: Chinatown and The Mystery of Mr. Wicker",6,Jisong
+224839,425,f018a00a32b91fccb204b771b8850672,positive,33,542752,"Things Not Seen (Things, #1)",33,Steven
+227139,426,f070f1cc66d79485f12f9a185afb9413,positive,21,17411227,"Element, Part 1 (The Natalie Vega Saga, #1)",21,Eric
+227876,427,1a6ab701c146954b5024eac067ba0ddf,positive,27,24397041,"Hunter (Hunter, #1)",27,Gabriel
+227939,428,520534fe4762cd8160d019417d89daf0,positive,27,16101156,"The Apprentices (The Apothecary, #2)",27,Abhigyan
+228060,429,dd45c639feef9041ef3545c7082272f1,positive,19,1233478,"Embrace the Night (Cassandra Palmer, #3)",19,Bilal
+229459,430,e6c9c88301087d10c8b25cd3d2f9bc7d,positive,6,10599805,"A Perfect Blood (The Hollows, #10)",6,Anna
+229820,431,ef3b8040532e6170bd20d0e756e2e5ea,positive,16,12017,"Inversions (Culture, #6)",16,Pablo
+231000,432,0cc7383aadda24f8fd70775616115c71,positive,9,968712,Inverted World,9,Xu
+231306,433,e841d96ece0aaa9205c418cd5cd061e0,positive,9,9339612,The Executioness,9,Divya
+232120,434,fd83f1c59d1b7b9b9830d197a755eff4,positive,37,11325591,"Chew, Vol. 4: Flambé",37,Antoine
+232130,435,1e8dd084d09527b40204696d0d78c6af,positive,37,407813,"The Blue Sword (Damar, #1)",37,Elham
+232188,436,13591ae1820b2640dabb65b377f87ec0,positive,9,6587879,Horns,9,Julia
+232784,437,ba2e6de39ea177c55c851400926619c0,positive,9,15808746,Red Planet Blues,9,Avi
+233544,438,59a514bb7433cc389b2657b6c0c2d3bb,positive,28,11669417,Dark Parties,28,Nina
+234766,439,98238a9deb39c2f25ebf283955b6f073,positive,25,1088892,"Biting the Bullet (Jaz Parks, #3)",25,Ali
+235231,440,2856c44b244147ab4964a445fc1bb69f,positive,16,68020,"Powers (Annals of the Western Shore, #3)",16,Nina
+235276,441,3ca837046e6613243f382651bffc4206,positive,33,349654,Hidden Camera,33,Peter
+235576,442,60982541be85a0611e9634b4f63d0cb0,positive,33,32423,Watchers,33,Shinjini
+236241,443,c1bb46972298fd529e5dbbc0bc45a30f,positive,22,17264589,"A Study in Ashes (The Baskerville Affair, #3)",22,Avery
+236708,444,64b679e30f4acd6b4caa94007cfe423c,positive,32,125925,"Industrial Magic (Women of the Otherworld, #4)",32,Adam
+237086,445,3d59610aa1021baa8e600f04de044013,positive,31,60925,Fledgling,31,Yaarit
+237530,446,cebb15f16b7c34c7f89a8ad8efa46d14,positive,9,5907,The Hobbit,9,Chang
+237602,447,57fd79e83998c5565f665442c2c46085,positive,19,927979,"Small Favor (The Dresden Files, #10)",19,Maryam
+239214,448,a091a79f08294230eacf80f2b7b296f5,positive,26,17925197,"A Study in Silks (The Baskerville Affair, #1)",26,Alec
+240275,449,bbda5aa2ea1a4ce27793fae6e6f8c5e0,positive,33,7801488,"The Weight of Blood (The Half-Orcs, #1)",33,Wenke
+240280,450,6d5f4f0245ee2bd5e14569acf77132e3,positive,36,7285601,"The Hunger Games (The Hunger Games, #1)",36,Anson
+240615,451,83318ab6e690d305e3db5c7f55cd085d,positive,31,18512,"The Return of the King (The Lord of the Rings, #3)",31,Bennett
+241072,452,560519a767e457d02120b9afd36d3d87,positive,29,20791887,"Ink Mage (A Fire Beneath the Skin, #1)",29,Keyvan
+241866,453,f8269fb5583a3cec5d954f94bd5c9a92,positive,31,2295534,"Disney at Dawn (Kingdom Keepers, #2)",31,Jisong
+241955,454,783631c50c19382ae4f917431ae55085,positive,21,15738579,"White Trash Zombie Apocalypse (White Trash Zombie, #3)",21,Peiyu
+242197,455,d3aee4a4c83be7507c3328785c724fbd,positive,22,43893,"Naked Empire (Sword of Truth, #8)",22,Keyvan
+242415,456,fd549ae187739852557f305ef4565169,positive,23,740037,Fledgling,23,Jason
+242440,457,4a2d674e014cab49ca9f4bd41a2724d5,positive,31,20821372,"Voices from Beyond (Ghost Finders, #5)",31,Avery
+242824,459,785a21b27d2ea64d129000d40017e0b9,positive,32,18001489,In the After (In the After #1),32,Kai
+243181,460,33c13a253100cd6c6cd9ccede7251ba3,positive,29,343179,"The Revelation (Animorphs, #45)",29,Daniel
+244017,462,569d84c050dba642537fa06303cd7aa6,positive,19,26689,"Thunderbird Falls  (Walker Papers, #2)",19,Jane
+244238,463,12b052eccb4ed1161cd765061602b809,positive,37,603268,"Dragons of Winter Night (Dragonlance: Chronicles, #2)",37,Aleksandr
+244249,464,561f6863008431747f464d18543d0f4a,neutral,29,32423,Watchers,29,Maryam
+244318,465,a2721f3a2f0f4682142e0dc766edac60,positive,32,9794437,"Crossed (Matched, #2)",32,Khaldoon
+244839,466,b265e40719f108f93961959353c949c7,positive,25,15710470,"Rising Darkness (Game of Shadows, #1)",25,Brandon
+245577,467,326f79cdebf4c694e56c6bffdfecac0a,positive,23,7973,Enchantment,23,Aleksandr
+245953,468,7f9d5c4841e97695b2ce0e4ac5621309,positive,9,185251,The Towers of the Sunset (The Saga of Recluce #2),9,Keyvan
+247537,469,2da7129ff5af8d275919d3ec919d1579,positive,9,21277,"Already Dead (Joe Pitt, #1)",9,Alec
+248436,471,ecf5ccec6487c02f20ae6c7a092dc662,positive,16,18490594,"California Bones (Daniel Blackland, #1)",16,Corey
+249030,472,3958ae01c85c9e0804d90160523ff91c,positive,26,10558533,"Heart of Steel (Iron Seas, #2)",26,Jane
+249424,473,cdce4ff638df3bee819c81aedfc8c5d8,positive,32,17724775,"Deadpool Killustrated (Deadpool Killogy, #2)",32,Tim
+249949,474,9d1cd19398c28a13e6292aea2fe18de8,positive,15,44577,"Prentice Alvin (Tales of Alvin Maker, #3)",15,Zhen
+250334,476,9f6f9da3a71ded406f15764f8fbf5f51,positive,36,22551901,Four Futures: Life after Capitalism,36,Kaveh
+250370,477,373c4bc69e1773eaef4e27378f7b0f27,positive,26,13638099,"Gunmetal Magic (Kate Daniels, #5.5)",26,Ali
+250434,478,dd68e0942f7cc9f355f4f97b86b3ce22,positive,31,116567,"Wizards at War (Young Wizards, #8)",31,Randolph
+250450,479,c52085b27563b46e426f6669d00b2129,positive,23,350540,The Road,23,Danila
+250888,480,33ab620933f86df34edd8d7049dd4065,positive,9,3926165,Mere Mortals (Star Trek: Destiny #2),9,Steven
+251925,481,95a0b622a53428dae5103848370fd12f,positive,6,7965,Homebody,6,Yaarit
+254241,482,3c3d01e70fdf0d876811551b2d0c1431,positive,9,20821363,Hidden,9,Bilal
+255021,483,e28444dacc32315a3ebe026d5fe4895d,positive,26,18685128,"Buffy The Vampire Slayer: The Core (Season 9, #5)",26,Lili
+255833,485,26c41515b2144cf6a1545e831f8d2cd3,positive,35,22358461,C.O.W.L. Volume 1: Principles of Power,35,Eric
+256488,487,52c71887d90b2f8ee83233624f579fbb,positive,33,8510279,There Is No Year,33,Anamol
+256571,488,d294115d617159a6c0ae345bf3908868,positive,35,2473642,Superman and the Legion of Super-Heroes,35,Jason
+257302,489,3dd563312fdc93283bd449a9d638eaeb,positive,37,11487807,"Throne of the Crescent Moon (The Crescent Moon Kingdoms, #1)",37,Xu
+258151,490,4a8b6f4c6a692e6eea5ac097978fee32,positive,37,519828,"Psion (Cat, #1)",37,Mahsa
+258584,492,24e78952880bfe00efff4bb93228609b,positive,9,13330761,The Dog Stars,9,Paul
+260452,493,152890aa867aa36cecd028803ce0af21,positive,36,17451125,"Close Remembrance (The Krinar Chronicles, #3)",36,Gary
+260873,494,2da3126eccc7f11e8ebba9693d8dbc06,positive,36,7094412,"Insatiable (Federation Chronicles, #3; Phantom Corps, #1)",36,Victoria
+261038,495,cdfc2a9f0a6edbbef25e68776e416868,positive,27,15797695,Scowler,27,Chang
+263171,496,783c56e48a4697ff26eb212118900d2c,positive,28,671560,"The Bone Doll's Twin (The Tamír Triad, #1)",28,Jesse
+263431,497,ca09b3be5f39836a318741845444a62f,positive,29,8813018,"One of Our Thursdays Is Missing (Thursday Next, #6)",29,Bilal
+264400,498,9aa1f348011c0f862b88bd6bba03d138,positive,16,2171498,"Red Seas Under Red Skies (Gentleman Bastard, #2)",16,Wenke
+266528,500,6f61e331c313f19bed3b771b921e41e9,positive,26,12925631,"The Taken (Celestial Blues, #1)",26,Brendon
+266803,501,6308463967d81025671fa8513ec71932,positive,26,22469323,"Firewalker (Worldwalker, #2)",26,James
+269145,502,813957808d9bfe72bbc653ceb012a821,positive,32,13538816,"Stormdancer (The Lotus War, #1)",32,John
+269486,503,161f31b58db26137c7dba29e9670177b,positive,23,201175,"Rapture in Death (In Death, #4)",23,John
+269818,504,a6a95634aa12679026ffee85c27d2eb0,positive,9,7137787,Under the Dome,9,Aleksandr
+269899,505,1f5068ff73cf07a8a003f337aec04527,positive,6,326128,"Brother to Dragons, Companion to Owls",6,Kaveh
+270222,506,6a6e70abafb50c790542ab03313f993b,positive,12,1811543,"Magic Burns (Kate Daniels, #2)",12,John
+270320,507,b99731d50301b260826b050d8f1cf1d3,positive,7,776378,Remake,7,Takaoki
+274426,510,2d483e3749f5e6dd171195ff266df654,positive,9,7778609,"Kill the Dead (Sandman Slim, #2)",9,Shinjini
+274520,511,00624f09513d2322b41cdbcb73853b6c,positive,29,11196925,The Book of Cthulhu,29,Eric
+275396,512,ac34ad6a99a97564950ed803eb782078,positive,33,1025514,The Tank Lords,33,Kaveh
+276405,513,586657254f571ef9db647440fd2ea43f,positive,26,13024331,"The Prophet (Graveyard Queen, #3)",26,Zhen
+278274,514,202a5b165f5ae5f7b94483a42f3333da,positive,37,153192,Doctor Who: The Resurrection Casket,37,Daniel
+279237,515,34d07fb9e04bfbbb17371435223b120e,positive,9,23995290,Zero World,9,Adam
+279491,516,a3b9a31475d12c5783419aecfad73bfe,positive,34,279562,"The Sundering (WarCraft: War of the Ancients, #3)",34,Julia
+279733,517,f0f3401c2708dbe477054ff8e6d9de7b,neutral,6,8087906,"River Marked (Mercy Thompson, #6)",6,Peiyu
+279763,518,f25b8a6ca496c618bda904edea1fe6e9,positive,29,80689,"The Fifth Sacred Thing (Maya Greenwood, #1)",29,John
+280871,520,55ba7a2035906dcd9103eacaa75f9ad8,positive,27,1008231,"H.I.V.E. Higher Institute of Villainous Education (H.I.V.E., #1)",27,Jisong
+281176,521,d8943a0f6f3ee796028503182ce2f9ba,positive,37,10628,Night Shift,37,Mahsa
+282511,522,7407685b547e0a2dbda37c48b391b640,positive,28,12139894,Immobility,28,Yaarit
+283712,524,f3c8964c3a81ab9f5694f4164c9a8b2d,positive,6,8270119,The Time Traveler's Wife,6,Piyusha
+284898,525,a57d8746304e548aaa4a89f0d9830dd5,positive,34,22889834,The Vorrh,34,Anson
+285297,526,4d36b6df3ed43a785a0032cf41cc75a1,positive,23,9795166,"Phoenix Rising (Ministry of Peculiar Occurrences, #1)",23,Randolph
+286283,527,ed556b92506c3452b42fffed31697a1a,positive,22,12925631,"The Taken (Celestial Blues, #1)",22,Piyusha
+286622,528,cbb328d39b0b6bddf1b61901fae34023,positive,19,6547258,"The Final Empire (Mistborn, #1)",19,Will
+286783,529,471f817f4e67b2b2d9bfa78f0842aae5,positive,34,78878,The Art of Discworld,34,Peiyu
+287960,532,ec4454fa4564cf765884b9d0cf0b6455,positive,32,7285601,"The Hunger Games (The Hunger Games, #1)",32,Will
+288276,533,fd1a7115af68cdc3e9350acc169fca3d,positive,25,19050244,"The Blushing Bounder (Iron Seas, #0.4)",25,Shinjini
+288412,534,f39c05d84781dd1fdf193f0757a73dfb,positive,12,13542654,The Cassandra Project,12,Peter
+288620,535,95edb723e9ec6d7deb162fc348019e2d,negative,33,508499,Ruins,33,Gabriel
+289613,536,0e965b0694252254f55028eeb1af3f2d,positive,27,6114777,"Graceling (Graceling Realm, #1)",27,Elham
+291100,537,42ac6b08b1ccf4635aa380df5b65771d,positive,35,18373305,"FBP: Federal Bureau of Physics, Vol. 1: The Paradigm Shift",35,Aleksandr
+291722,538,d79354a28e4edd696230dc5513dbfc9a,positive,9,7108001,Abraham Lincoln: Vampire Hunter,9,Antoine
+292119,539,a867ee71f6203414f68ff7a1c734aa8c,positive,28,13450339,"Poison Princess (The Arcana Chronicles, #1)",28,Ilia
+292782,540,5da655873086917d8f32a6235a913534,positive,17,6327801,"Calamity Jack (Rapunzel's Revenge, #2)",17,Daliang
+293158,541,ec3900de3fdeff2861f2d49a4eaacca4,positive,29,24870101,Slade House,29,Pablo
+293204,542,a43d593d8459c39feefb9e7d5f9d7bc6,positive,37,60112,"Doom Patrol, Vol. 2: The Painting That Ate Paris",37,Bilal
+293299,543,6061991ae5cd828cf3cf545ee39106cc,positive,25,25110965,And Again,25,Nina
+295102,545,702092d3000c23a5bce4f2d0b7e1974b,positive,31,826845,The Chrysalids,31,James
+295731,547,fc42cbb17f863f27ab7b8b231ef6e49a,positive,9,6052249,The Unseen,9,Kai
+298100,548,b4365ebd5b60fb9027e54247fd9f19cd,positive,28,9548964,"Fracture (Fracture, #1)",28,Xu
+298474,550,d8c39b3b11bb2da1c1d5c39f49669dea,positive,25,10713851,"Destiny Binds (Timber Wolves Trilogy, #1)",25,Paul
+298898,552,ad54398a9220bfa80a52a7e27a4ae924,positive,6,618198,"Restoration (Rai-Kirah, #3)",6,Daniel
+299177,554,4a3bba4517a17c0bf3bd8dd6d4161313,positive,35,13543039,"Clean (Mindspace Investigations, #1)",35,Paul
+300010,555,7973016eff8a616f5298fc886489ec27,positive,22,129581,"Defiant (Kris Longknife, #3)",22,Takaoki
+300408,556,1d4cfe50e5d3250972b8721bf8ff9fbc,positive,32,104599,M Is for Magic,32,Avi
+303459,557,53bdd35f1ba1394675563ba5cf8625a2,positive,7,45251,"Judas Unchained (Commonwealth Saga, #2)",7,Gabriel
+303752,558,f9e14e1f4ba6d80590ea379ee7d5dbe0,positive,9,5907,The Hobbit,9,Julia
+303992,559,1cbc4e84c82ea1f4563b8c4c1d89b52c,negative,34,77353,The Book of Atrix Wolfe,34,Maryam
+304278,560,4e9d7fc4ab0e7cf746adb9efde4aa00a,positive,26,9712424,The Miracle Inspector,26,Abhigyan
+304586,561,57b38e64e308d1a145fce910de1c2c5e,positive,6,8379585,"The Wolf Age (Morlock Ambrosius, #3)",6,Wenke
+305735,562,206d5853be17e1070e1ad3df3780902a,positive,9,7171179,"Mouse and Dragon (Liaden Universe, #7)",9,Bilal
+306768,563,c5bc184ce2eb20f75ec0f34104c04807,positive,32,441854,Plague Maker,32,Brendon
+306978,564,8fb03674ed6b11479d4a1f0966c06918,positive,31,13316252,What Came from the Stars,31,Piyusha
+307097,565,40b8d9dca682712012105330b511e2d2,positive,28,25817285,"The Lincoln Project (Flashback Four, #1)",28,Brianne
+307138,566,ada3e9446fb3c91ef7ddb6be86fb4326,positive,12,8393104,Fated,12,Brendon
+307398,567,0ec225fcaef73e6b1a2eab7c7f3e1f13,positive,36,17284565,"Winter Wolf (Axton & Leander, #1)",36,Jason
+308376,568,7aaa33ae7fed648790e47207b28fc86f,positive,17,7656228,"Once Every Never (Never, #1)",17,Gabriel
+308378,569,501bfd45d783bdf291f6d151f97ef1f8,positive,27,828440,"Her Majesty's Wizard (Wizard in Rhyme, #1)",27,Steven
+308391,570,aeada51312c0f5625c52b549a13c92c8,positive,29,433567,Flatland: A Romance of Many Dimensions,29,Kai
+308515,571,7b7e92401399b62e5f6ca5bcacd70941,positive,27,6261522,"The Body Finder (The Body Finder, #1)",27,Bennett
+309985,572,63b0a67080067f05f460c6974d4b3d26,positive,27,6987750,"Vampire Academy (Vampire Academy, #1)",27,Shinjini
+310187,573,9cc804aa32ef2b5ef3e10b6b8e60b881,positive,33,116256,"Patternmaster (Patternmaster, #4)",33,Corey
+310329,574,5824b0d421da8c1def7be51939a209a9,positive,35,6488483,"The Walking Dead, Vol. 11: Fear the Hunters",35,Peter
+310965,575,a082a944b2371f88f9ab07583665e902,positive,26,11480387,"Crossed (Matched, #2)",26,Wenke
+312330,576,a0f3db4b3a9108c8f8f6320d60c11369,positive,36,10286746,"Fated (Dark Protectors, #1)",36,Chang
+313171,577,28a574447fd288e3bcb2463e8f670008,positive,21,9371788,"Unwind (Unwind, #1)",21,Nathan
+313473,578,b9223a29ae2ab6e6e0ba583faef19bd5,positive,26,985873,"A Game of Thrones (A Song of Ice and Fire, #1)",26,Khaldoon
+314593,579,71e1c53a192cc93ca5cc9d7e8abcbd60,positive,21,822200,"The Society of S (Ethical Vampire, #1)",21,James
+315705,580,87d87a3ded8afde6237c23f25d11d4a6,positive,29,13578992,"The Bones of Odin (Matt Drake, #1)",29,Dong
+315827,581,73a17ac2496c5a4c4680be8d12c9a08e,positive,17,20074,Changelings,17,Randolph
+316515,583,8cd5cb7e2978c8258ce780c7632fac00,positive,7,296198,"Borders of Infinity (Vorkosigan Saga, #8)",7,Steven
+317326,584,db83ffc3add3f74a18c97876aebc04fd,positive,34,3754016,"Shadow's Edge (Night Angel, #2)",34,Gary
+319162,585,0414942843c4940f0613fbe44b7939d3,positive,22,11018851,"The Mortal Bone (Hunter Kiss, #4)",22,Yaarit
+321787,586,ee3d8d1fe8fa55edfc21311306c9e57b,positive,26,8437831,"Flip This Zombie (Living with the Dead, #2)",26,Brandon
+321789,587,17a5ca87f4d8c78567c02831c7536bff,positive,21,16065477,"A Kiss of Blood (Vamp City, #2)",21,Eric
+322484,588,9013bc84fd52ec51c495868add64df33,positive,27,29371079,"Bury the Living (The Revolutionary, #1)",27,Danila
+324666,589,a40319068b25ea6200e2ac1fc811e99e,positive,32,7237456,Packing for Mars: The Curious Science of Life in the Void,32,Xu
+324958,591,ca5c77ab48421011ba033eb6b0462a7d,positive,29,359386,Heavy Weather,29,Piyusha
+325723,592,60774fe001fdb7bb551d8db8a244d392,positive,17,12216302,"Cold Days (The Dresden Files, #14)",17,Alec
+326608,593,8b786e4edcca01516ad3502637235e6c,positive,25,8262172,"Primal (Breeds, #23; Feline Breeds, #14; Ghostland World, #3.5; Nightshade, #1.5)",25,Kevin
+328398,594,7e32beca7a5daed6f3adf557d8836ba0,positive,9,12854800,"The Killing Moon (Dreamblood, #1)",9,Zhen
+328875,595,6765e114b2520078eb0272afe5e8db6c,positive,9,776378,Remake,9,Kevin
+330752,596,b7149f5dc0978df5cd4c6f9f862aa208,positive,7,26114364,Waypoint Kangaroo (Kangaroo #1),7,James
+331126,597,02a765c7f623e37bb80f0fb230ef773d,positive,28,10174795,"Glow (Sky Chasers, #1)",28,Avi
+331183,598,16ce1905c9c20cd4e8bd3a0f1cf02fe7,positive,23,6975601,"Havoc (Malice, #2)",23,Gary
+331680,599,bd7b27d11a8936ae53127346b8cb59dd,positive,17,21522102,"The Replaced (The Taking, #2)",17,Daniel
+332016,600,147e931b6109d16af66b63a798ec8f7f,positive,27,13931214,"The Moon Dwellers (The Dwellers, #1)",27,Daniel
+336024,602,08ec63e6049fb32ef1772b38f3076e80,positive,34,6438404,"Witch & Wizard (Witch & Wizard, #1)",34,Aleksandr
+336157,603,31e68d624494766df47fe5ad228c47c0,positive,23,15447,"The Source of Magic (Xanth, #2)",23,Jingji
+338811,604,c7cafc5c262441aaa9fc8c816dcd20d5,positive,27,7940930,"Magic Bites (Kate Daniels, #1)",27,Antoine
+340012,606,03dced7d30e4674f185c46afa3e9e8ce,positive,15,822995,"A Clash of Kings (A Song of Ice and Fire, #2)",15,John
+340351,607,5ab5a841c26a3cf7388bed00648221f2,positive,27,15992880,"Echo (Species Intervention #6609, #2)",27,Keyvan
+340479,608,5073258bd4b8c95955e9d626312cf22f,positive,36,12455203,"Brainrush (Brainrush, #1)",36,Peter
+340945,609,9f829bcccebf8971b5c1e4f6e64406a9,positive,32,7201913,"Angel (Maximum Ride, #7)",32,Anson
+341371,610,3fd3647bc5b2cfe1e9fc00ed21e96549,positive,12,7312120,"A Web of Air (Fever Crumb, #2)",12,Nathan
+342560,611,6a6cd82dd992d1488526f36e0536602d,positive,31,89184,Absolution Gap,31,Brandon
+343027,612,0d71b4284bec48e7c624abb6acb2ea7a,positive,33,60934,"Imago (Xenogenesis, #3)",33,Lili
+343361,613,642bafea839d37b3cd8699540cc2ddd8,positive,17,11500217,"Angelfall (Penryn & the End of Days, #1)",17,Maryam
+343422,614,952ae9da29d36fa44a3367e74bb1cee2,positive,28,15787790,"The Hunt (The Hunt, #1)",28,Yaarit
+344030,615,dbcff141ab0cc7dea520fdf5f51b347a,positive,29,18310561,The First Fifteen Lives of Harry August,29,Elham
+344297,616,fd9bef204e4a88755f48a21b5b7c0eae,positive,15,395962,"Kushiel's Chosen (Phèdre's Trilogy, #2)",15,Dong
+346721,618,537d545c10562ac280571224f406de25,positive,33,177406,The Kin of Ata Are Waiting for You,33,Nina
+347418,619,042ec3a109146c8e288a9ef0b1b89659,positive,28,300044,"Knife Edge (Noughts & Crosses, #2)",28,Nathan
+347756,620,395f921b93a177eee8e9c26a118fdb12,positive,37,28634265,Limbo,37,Mahsa
+348820,621,7452667174fd73b6cd409a60785a69f7,positive,34,25242184,The Slow Regard of Silent Things,34,Julia
+349851,623,f63147ee4e80d14ea863f9fcc8c454be,positive,29,15812779,"Possession (Greywalker, #8)",29,Jane
+350323,624,48750b815dcc6baf6889035d2068619b,positive,17,16101054,"SYLO (The SYLO Chronicles, #1)",17,Anna
+350339,625,9323fd1faa428513e0f1c0fa106a4fe5,positive,32,7000922,Soul Hunter,32,Gabriel
+350423,626,b8db940ec249b138c373385b7b53d838,positive,35,7670619,Doctor Who: The King's Dragon,35,Gary
+350573,627,e9955e571e2bdead2c2cde85e0ec7579,positive,29,16209164,Post-Apocalyptic Nomadic Warriors: A Duck & Cover Adventure,29,Tim
+350802,628,c6ec1109937dc4c37c067527db11fb7b,positive,9,12925663,"Mercy Kill (Star Wars: X-Wing, #10)",9,Jingji
+350881,629,989645c744c8570c76d89b08521f948c,positive,37,76891,"Armies of Light and Dark (Babylon 5: Legions of Fire, #2)",37,Chang
+351473,630,02f6c91ef77b301085298cb15c38f1ce,positive,17,8045336,"Matched (Matched, #1)",17,Pablo
+352978,631,899ca268743efa2838d3da5f56f9ea08,positive,37,13076189,Reamde,37,Bilal
+352992,632,f946a48a301e92a0879c6df7bbfe7489,positive,25,15309,"The Laughing Corpse (Anita Blake, Vampire Hunter, #2)",25,Dong
+353049,633,e9eeb7b1eba9672e838ab1b2b5776d69,positive,33,28220781,Willful Child: Wrath of Betty,33,Pablo
+353062,634,8bc318a159d29018dfd97c99bd4f8752,positive,36,9542,"Cast in Shadow (Chronicles of Elantra, #1)",36,Randolph
+353744,635,9a8e71eed44573045671f0aca8223e77,positive,27,9721690,"Starcrossed (Starcrossed, #1)",27,John
+355184,637,0771a04c07687f5079134c1ae2913bf7,positive,15,25659450,Arkwright,15,Avery
+355463,638,2be0b823872cc121c395deaee6b761be,positive,31,149302,"Silverthorn (The Riftwar Saga, #3)",31,Brendon
+357688,639,9eb4a3eddac3760571020b5a49136f87,positive,32,3599870,The Company,32,Maryam
+358730,640,d5f67ee1f7a5312c4d3fcf00c4c620d6,positive,29,66655,"Necroscope (Necroscope, #1)",29,Zhen
+359674,641,9b5d168861ac64aea9dea343b29c39e2,positive,21,10599805,"A Perfect Blood (The Hollows, #10)",21,Bilal
+359915,642,722183bd328a903c8559843b11d249f5,positive,9,16163914,Dead Spots (Scarlett Bernard #1),9,Alec
+360300,643,67f3e6a5c5e0c3a06472c252a87120d6,positive,19,296182,"Brothers in Arms (Vorkosigan Saga, #5)",19,Anna
+360516,644,f2000ff7eaf6f2de8dfd03c537088546,positive,33,350540,The Road,33,Danila
+360531,645,d98728dbebc4dac409b7df69aa952cf4,positive,9,533850,Before Adam,9,Eric
+361364,646,3237ec965cc6c5e1b7fbda11e6b29b81,positive,27,13172164,The Return Man,27,Abhigyan
+362452,647,2f7b6fe30eb40765e2010a3d9555007e,positive,21,10756656,"Under the Never Sky (Under the Never Sky, #1)",21,Eric
+364780,648,4d2b3785a2e203c85ab05a6186753c47,positive,27,15790890,The Curve of The Earth,27,Brianne
+366222,649,d64da50d3af7fe0e48091ff2a7dfcccc,positive,36,26883379,"Atrophy (Atrophy, #1)",36,Bilal
+367192,650,d19c94b13744760c12f41fd5245a959d,neutral,29,9765849,"Heart Search (Celta's Heartmates, #10)",29,Divya
+367469,651,ac5cee8a24ca511dc51837fed6e60af1,positive,37,480569,"Dragonflight (Pern: Dragonriders of Pern, #1)",37,Kai
+368809,652,4ee554aa2f9cfb7a32dc8b834594544f,positive,22,13421230,"Perdition (Dred Chronicles, #1)",22,Takaoki
+369041,653,51b39553989a6a08354d425b0b5208c4,positive,32,21432474,Wraith,32,Gabriel
+370855,654,1d02d7115117999be6c86a54360c673b,positive,4,13194,"Green Arrow, Vol. 1: Quiver",4,Ali
+372516,655,ea4fa24c224390adf51f683da59dd74f,positive,6,11994975,Rust Vol. 1: Visitor in the Field,6,Ali
+372664,656,4b1eb8669fa2e4729acb754a10bb8d82,positive,27,6616466,The Folding Knife,27,Pablo
+373229,657,0b174a10a58c566cda3982255f849ba8,positive,7,2939570,Pretty Monsters: Stories,7,Jisong
+374966,658,ed8d53aef89e3f8b0e31bdba78f9d71b,positive,17,83369,"The Mysterious Benedict Society (The Mysterious Benedict Society, #1)",17,Brianne
+375608,660,c9b724a75f3bdf9b2c7379478d772938,positive,4,28109911,"Unfollow, Vol. 1: 140 Characters",4,John
+379018,661,638442b12d3de8195f7b158816968938,positive,9,8479092,"Ghost Country (Travis Chase, #2)",9,Shinjini
+380170,662,a7be704a580edf0d9643929d7fd9e901,positive,37,358675,"Animal Man, Vol. 3: Deus ex Machina",37,Xu
+380253,663,f3be22529de075b9b877f4d4ec8025c4,positive,35,16002169,Iron Man: Extremis,35,Shinjini
+380341,664,771ccb8872b75ed6efbd0e88d2726c77,positive,37,29775948,Star Wars: Guardians of the Whills,37,Peter
+380579,666,1de39d681e60b8e6ed84fe591729416c,positive,23,621697,"Magic Lost, Trouble Found (Raine Benares #1)",23,Kai
+380666,667,bea77de12f3f6aac9a83d5022d8c60a0,positive,33,668714,The Goblin Reservation,33,Kaveh
+380713,668,01039bf4c3809a965924b3c6a25fa506,positive,28,10433900,"Variant (Variant, #1)",28,Adam
+380726,669,de61c481b4ac38cff373020cbb80a526,positive,19,11018851,"The Mortal Bone (Hunter Kiss, #4)",19,Ali
+381222,670,90141fd90d7c118100e02a4bbb371042,positive,29,12964289,"Caliban's War (Expanse, #2)",29,Julia
+381855,671,77194bce5da8e231a810d0e0febb5d21,positive,37,12844699,"Libriomancer (Magic Ex Libris, #1)",37,Zhen
+382365,672,142d48e02687a51547e5ba096419becb,positive,23,147026,Incredible Change-Bots: More Than Just Machines!,23,Jingji
+382840,673,1bdf4cb3ba3b6e4781fbd9847bfc5ec2,positive,28,9760701,"The Mall (Downside, #1)",28,Victoria
+382860,674,2cff506548944d7749641849029a7ca9,positive,6,2171498,"Red Seas Under Red Skies (Gentleman Bastard, #2)",6,Anson
+384258,675,8112fcd69b71f7c0dbd3b15e44b81a7a,positive,29,8837592,"The Wonderful Future That Never Was: Flying Cars, Mail Delivery by Parachute, and Other Predictions from the Past",29,Kevin
+384333,676,9c1182dd8bef1b68def5be5d4aa7615d,positive,15,92121,Nine Princes in Amber (The Chronicles of Amber #1),15,Xu
+385920,677,21092fffd7670b1e724995ef6f4619e6,positive,27,8608740,"Department Nineteen (Department Nineteen, #1)",27,Corey
+386340,678,588ac3a2a94b2a61fd08f38170229176,positive,34,23847922,Gatefather (Mither Mages #3),34,Steven
+386493,679,4b3112838911d201bb3221dcaaca154c,positive,36,23585851,"The Assassin's Salvation (Mandrake Company, #3)",36,Gary
+388179,680,d9d364a2d6a7009490dc5ed3538bd841,positive,19,621697,"Magic Lost, Trouble Found (Raine Benares #1)",19,Ilia
+388827,681,12169a5ff0b8061d64104ce28248750a,positive,9,13414791,"Tricked (The Iron Druid Chronicles, #4)",9,Keyvan
+389414,683,73949b0d4115e4e1967b0043a2dcb056,positive,28,6053292,"The Hunger Games (The Hunger Games, #1)",28,Ali
+389855,684,3b8e93a8e7b1e70cb62e04edb0cffcb3,positive,26,8134944,"Gardens of the Moon (The Malazan Book of the Fallen, #1)",26,Jane
+390560,686,7665adecfc2e53bf4a376fe68bba3f0b,positive,32,21277,"Already Dead (Joe Pitt, #1)",32,Adam
+391328,687,e4bd2dca717f5a86370eb6d81b1d5923,positive,9,12967,Winter's Tale,9,Yaarit
+392739,689,8dc9197b7638777c0cf7eb6c959c3290,positive,31,57014,"Invader (Foreigner, #2)",31,Brendon
+393386,690,edbbb5abc76a06886cb9847ebf44271a,positive,9,61913,"The Curse of Chalion (Chalion, #1)",9,Alec
+393965,691,6238f99b390090e5744896be35b21208,positive,7,13049688,"The Map of the Sky (Trilogía Victoriana, #2)",7,Nathan
+394262,692,b06a139b2c4e655688f36d7747c4d5fd,positive,12,7788758,"Shadow Bound (Shadow, #1)",12,Daliang
+394772,693,042ba79cee23966af9620ebafc889172,positive,32,18050390,"Brew (Salem's Revenge, #1)",32,Jesse
+395334,694,8de32c077954e6080a94f2e2ced6116f,positive,34,76658,"On a Pale Horse (Incarnations of Immortality, #1)",34,Pablo
+396087,695,77d34681cca8bb162011da401d8ab384,positive,7,15808746,Red Planet Blues,7,Maryam
+396611,696,45c694a6432706f9451d6918bba739db,positive,9,23894295,"Please Don't Tell My Parents I Blew Up The Moon (Please Don't Tell My Parents, #2)",9,Julia
+397374,697,99177217f02a69d643d0aaac9b982d57,positive,6,1811543,"Magic Burns (Kate Daniels, #2)",6,Jason
+398823,698,bee923c8af049a6ab955c5e068e200d3,positive,9,618177,"Legend (The Drenai Saga, #1)",9,Ilia
+399371,699,381b17e47332d31f0de3e1e3d0b7bc70,positive,29,18654234,Farmers and Cannibals,29,Anna
+399686,700,516d226f60b9859c5a5e5585cbc4d7cd,positive,32,12651476,"Ender's Game (Ender's Saga, #1)",32,Kaveh
+400602,702,f54d60b76fe8722a0e50f97610ef6b79,positive,29,10281024,The Halloween Tree,29,Keyvan
+400806,703,24ac959db8c542cf3c03f2e6d57466aa,positive,32,115969,Overclocked: Stories of the Future Present,32,Kai
+400886,704,9f460f2c5c32589ea45731dd49b0ead5,positive,37,3294256,"Madame Mirage, Volume 1",37,Dong
+401004,705,6852e76e61b386ae76b5b9799b8f6ca5,positive,4,6906026,Superman: Secret Origin,4,Daliang
+402307,706,17ea8d8f7ad5d303fc66a657634a7586,positive,19,37586,"The Lost Colony (Artemis Fowl, #5)",19,Will
+402906,707,40333a1a03fa27ad2ab1ac38a0de1921,positive,32,7788549,"The Heir of Night (The Wall of Night, #1)",32,Corey
+403487,708,de86cf36e8968baf05d0bfac2dadcbd9,positive,6,13538816,"Stormdancer (The Lotus War, #1)",6,Anna
+403490,709,b83760281ae3ce74b03c1a9614829f96,positive,37,10783217,"One Salt Sea (October Daye, #5)",37,Abhigyan
+404360,710,6a318b10b5201a12ee6fe9ec1427a7f5,positive,7,89192,Century Rain,7,Takaoki
+404828,711,5df828dd58783a6e27c3f910865ed191,positive,37,301082,"Dead Until Dark (Sookie Stackhouse, #1)",37,Xu
+406122,712,2cfce055f4000c720d964ad2bea3b1e6,positive,36,16174363,"Dark Space (Dark Space, #1)",36,Nathan
+406499,713,51c5cdff0ea71d74bb9e1feae3467e99,positive,35,8513471,Elmer,35,Avery
+407447,715,60239aa00b9955d8c315dbb3da2e7bc9,positive,17,12917338,"Homeland (Little Brother, #2)",17,Steven
+407564,716,99333c9f0f3c017978406c9793a6d1a0,neutral,33,1171778,"Code of Conduct (Jani Kilian Chronicles, #1)",33,Elham
+407911,717,54f37d5f5e8111d2e7fe39e997468b32,positive,9,144127,The Runelords (Runelords #1),9,Jesse
+408614,718,4d198566e90faf5f44ec3149f5ef78cf,positive,32,2396185,The Mammoth Book of Extreme Fantasy,32,Julia
+408959,719,1babf2c8af46b3dc874e5d28edbec5c1,positive,31,12987245,The Hammer and the Blade (Egil and Nix #1),31,Daniel
+409780,720,9662a0a0babf5d9b1860996b8f3a5387,positive,6,8288915,"Play Dead (Dog Days, #4)",6,Zhen
+410162,721,de343ac1a215a460c98c38b706f8e836,positive,32,9969572,Ready Player One,32,Shinjini
+411958,722,1ba25ccac9b54c9055f821c050d70a78,positive,33,17306293,"Shift (Shift, #1-3; Silo, #2)",33,Mahsa
+412121,723,bfb073eeb119dedf3d0b5fa185ac433d,positive,32,826845,The Chrysalids,32,Brandon
+412587,724,c16247b4c854075520de11aff519860e,positive,31,48682,"Red Thunder (Thunder and Lightning, #1)",31,Dong
+412920,725,078ec3b17d6a16b15e36e6e9ed789905,positive,26,8088,Sunshine,26,Chang
+413797,726,191d05c15c0c44b570f368d685be79da,positive,28,16155240,"Sanctum (Guards of the Shadowlands, #1)",28,Abhigyan
+413827,727,526a2528c5e7522b7d7fa3f234ccd445,positive,9,7081,The Android's Dream,9,Bilal
+413852,728,a6e945c4c02586ca7d301f60645b022c,positive,33,13406423,"UnWholly (Unwind, #2)",33,Corey
+414246,729,313d64cf6f620ac703b77b40f451deed,positive,27,17046606,"The Garden of Stones (Echoes of Empire, #1)",27,Adam
+414799,730,90f15e255ef97102fec0a780cc7774b2,positive,23,15985395,"Heart Fortune (Celta's Heartmates, #12)",23,Abhigyan
+414930,731,180c57224355b0866339b1460e35e199,positive,37,107024,"Superman/Batman, Vol. 3: Absolute Power",37,Danila
+415879,732,f2ad400798ee9ec62b3997ff71b687a9,positive,27,17063691,"Island of Fire  (Unwanteds, #3)",27,Kevin
+416028,733,907a0ae3f8277a7063d3452ec2eadc82,positive,7,21010,Spares,7,Divya
+416214,734,c59957fdd1ae1f83b076c333215597d3,positive,16,6828998,"Molly Fyde and the Parsona Rescue (The Bern Saga, #1)",16,Randolph
+416732,735,1656fa00b5310a63df6ef14b1060f100,positive,34,8709880,Nemesis,34,Peter
+417087,736,3cf0f0fac4ecceb140bddf8dd15c5bc0,positive,15,68333,"Beggars in Spain (Sleepless, #1)",15,Jisong
+417499,737,04d58f0fa24cf4d5940748263b19d05d,positive,22,329029,"Gold Unicorn (Unicorn, #2)",22,Gabriel
+417821,738,04f015751b93830d5ee7257ab38f6e26,positive,31,1190811,The Princess Bride,31,Eric
+418529,739,28f9bfad4b869da441489e2697e1ed32,positive,33,198463,"High Society (Cerebus, #2)",33,James
+419884,740,1bf5a0c9af91909863db6148e36de7c7,positive,6,2171498,"Red Seas Under Red Skies (Gentleman Bastard, #2)",6,Anna
+419885,741,cf8c4ee625ffe42161ad16734b0e57dc,positive,29,15798376,"Batman, Vol. 1: The Court of Owls",29,Anamol
+419991,742,196e7886706a6a9caa6b776cf3e9451b,positive,27,10762469,The Leftovers,27,Jisong
+420117,743,ac8768206d033cb1d5f495de2e75926d,positive,29,22592,The Collected Stories of Philip K. Dick 1: The Short Happy Life of the Brown Oxford,29,Steven
+420312,744,3e788b8bd7e5dccc4c21e09d0cac31a5,positive,27,7108001,Abraham Lincoln: Vampire Hunter,27,Shinjini
+420755,745,47095e70f00e1f8c04909386f1413f6c,positive,37,33482,"The Coming of Conan the Cimmerian (Conan the Cimmerian, #1)",37,Anna
+420848,746,93603dadc8f56d0dc6c77d3fe4105f81,positive,9,7077917,"Song of Scarabaeus (Scarabaeus, #1)",9,Keyvan
+420911,747,f720e956e0a685095fff20c50ef10816,positive,17,7728889,"The Diviners (The Diviners, #1)",17,Xu
+423383,749,3b8f327ab414507a3f6729614f1156e8,positive,33,337048,"The Engines of God (The Academy, #1)",33,Bilal
+424255,750,f4ab8db08d4fe6e28fdff8796c7d13ac,positive,9,12891107,"King of Thorns (The Broken Empire, #2)",9,Anson
+425346,751,31c85fc6bf4ed80533c3212fc88b8386,positive,12,22550,"The Gunslinger (The Dark Tower, #1)",12,Adam
+426856,752,7ec015c21b169591e17cd699dc2c336d,positive,27,11337912,"The Prisoner of Cell 25 (Michael Vey, #1)",27,Wenke
+427917,753,de295ef3db15ad951ecf53bd4b0528ba,positive,29,2193679,Indiana Jones and the Kingdom of the Crystal Skull (Indiana Jones #4),29,Bennett
+427988,754,c979bd6325fdec2b0d01f929a0bbcf0a,positive,36,17239242,"Board Stiff (Xanth, #38)",36,Xu
+429031,755,0efb9daf11e327bf516fe4e624963301,positive,9,7778609,"Kill the Dead (Sandman Slim, #2)",9,Kevin
+429607,756,c137ca73ca91339cd20ef51e023593b0,positive,22,17608224,"Midnight Soul (Fantasyland, #5)",22,Chang
+430639,757,3440c282fb7bba012dc93966189c28ff,negative,7,34527,"Feet of Clay (Discworld, #19; City Watch, #3)",7,Brendon
+430940,758,d843e9a894be06cb48a5862080c426a7,positive,33,10402,Cat's Cradle,33,Zhen
+431075,759,2ca08c591d29b85cba01045b670d4476,positive,27,8609161,"Those That Wake (Those That Wake, #1)",27,Anson
+431390,760,9e6cd5b5d23b2c3fac220a73329a67c2,positive,32,270490,"In the Garden of Iden (The Company, #1)",32,Maryam
+432435,761,a6c7ea6d7767c2e04a6b7856aaabbdf2,positive,16,60924,"Seed to Harvest (Patternmaster, #1-4)",16,Zhen
+432497,762,300c8d88fc270be92de88530c51f0de9,positive,33,59322,"Final Impact (Axis of Time, #3)",33,Jingji
+432579,763,b130d74091d1340b1fa44c6f48c4b0d6,positive,35,17345299,The Casebook of Newbury & Hobbes,35,Avery
+432864,764,c937c66a81c459894fa59645d7ebd720,positive,22,927979,"Small Favor (The Dresden Files, #10)",22,Randolph
+433018,765,d00765138ea6c0b1bbe16862a1c19887,positive,28,8100267,"Pathfinder (Pathfinder, #1)",28,Piyusha
+433411,766,2eb9ac24032f09bf82935a3e0f85f1f4,positive,27,1070555,"Zombie-Loan, Vol. 1",27,Kai
+433677,767,3280f7e7bb8b2141c6a7ceed51fbdc64,positive,9,33398240,The Man of Legends,9,Will
+433920,768,4e20607cf4a0c942d7b92a3dc1ec4f96,positive,31,985873,"A Game of Thrones (A Song of Ice and Fire, #1)",31,Nina
+433970,769,64020c7d1773b54e82d766206685d686,positive,7,16715,Men and Cartoons,7,Bennett
+434170,770,96f87a912585e710167e165e4dac4454,positive,31,10859388,"The Girl Who Circumnavigated Fairyland in a Ship of Her Own Making (Fairyland, #1)",31,Divya
+435268,772,bd7e3efea581ed4f254555d0dcfa853b,positive,7,60934,"Imago (Xenogenesis, #3)",7,Antoine
+436806,773,de4a739c4144203939798410509fa8dc,positive,9,7094569,"Feed (Newsflesh Trilogy, #1)",9,Chang
+437101,774,c15b5bb0684657088c7a50c35c330387,positive,7,116256,"Patternmaster (Patternmaster, #4)",7,Mahsa
+437319,775,677ad85fb689d228cc6cd27198a9e3b8,positive,16,28220781,Willful Child: Wrath of Betty,16,Steven
+438392,776,43c80b522c2b18c1c31d822a1183f59a,positive,36,13326372,"How to Date an Alien (My Alien Romance, #1)",36,Mahsa
+439107,778,e5905d648022af7b1309d82a1f4d255b,positive,29,1567985,Firestarter,29,Khaldoon
+439150,779,489d070d3ecc2978a58ff944d54ffeb1,positive,16,1931915,Bruiser,16,Nina
+439469,780,7a73805aa7fcd68d969b906c37df12db,positive,35,29801,"Scott Pilgrim, Volume 2: Scott Pilgrim vs. The World",35,Victoria
+439639,781,ea1a2d8707bdb5294e9c2c1868ae0760,positive,35,9242764,Darkness Under the Sun,35,Jane
+439662,782,93c8f286c715d0903bcd8e84184d188f,positive,19,27753588,Star Trek/Green Lantern: The Spectrum War,19,Steven
+440673,783,4c7838b380d007a7dc162d55717366f4,positive,29,29844757,"Jem and the Holograms, Volume 3: Dark Jem",29,Jesse
+440854,784,483783e3e85a265440702ffd03c72d5e,positive,32,10586539,Wake (Watersong #1),32,Pablo
+441259,785,9bd7718bd344aea44bc1dc42b42f8095,positive,32,13931214,"The Moon Dwellers (The Dwellers, #1)",32,Ali
+441902,786,7fe23f3e1b7fd67e20dec8927b10bcc4,positive,6,70583,Bone Dance,6,Nathan
