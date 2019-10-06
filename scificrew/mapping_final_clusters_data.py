@@ -15,7 +15,7 @@ from collections import Counter
 
 def main():
 	# clusters group user id
-	clusters_users = pd.read_csv('users-clustered-final.csv')
+	clusters_users = pd.read_csv('clusters_final.csv')
 
 	# clusters group user id
 	clusters_users_names = pd.read_csv('clusters_group_names.csv')
@@ -60,7 +60,7 @@ def main():
 
 	# merging with users names
 	final = pd.merge(test3, clusters_users_names, on='user_idx')
-	final.to_csv('clusters-final-oct.csv', index=False)
+	final.to_csv('clusters.csv', index=False)
 
 
 if __name__ == '__main__':
