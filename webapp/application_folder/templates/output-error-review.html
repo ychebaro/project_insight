@@ -60,46 +60,14 @@
         <div class="container">
           <div class="slider-title_box">
             <div class="slider-content_wrap">
-              <h2><font color="#fff">Here are some potential readers with similar taste!</font></h2>
+              <h2><font color="#fff">Oups sorry! You only can answer 'Yes' or 'No' to that...</font></h2>
+              <h3><font color="#fff">Sometimes there is no grey area...</font></h3>
+
             </div>
           </div>
         </div>
-
-      <div class="container">
-        {% if error %}
-        <p class=error><strong>Error:</strong> {{ error }}
-        {% endif %}
-
-      <div class='row mx-auto'>
-      <!-- <div class='row justify-content-center align-items-center'> -->
-        <div class='col-md-10 mx-auto'>
-          <table class="table table-sm table-borderless">
-          <thead>
-          <tr>
-            <td><font color="F2E9E6"><b>Name</b></font></td>
-            <td><font color="F2E9E6"><b>Goodreads id</b></font></td>
-            <td><font color="F2E9E6"><b>Reviewing style</b></font></td>
-            <td><font color="F2E9E6"><b>A book they enjoyed</b></font></td>
-          </tr>
-          </thead>
-          <tbody>
-          {% for user in users %}
-          <tr>
-        <!-- <th scope="row"> -->
-            <td><font color="F2E9E6">{{ user['name'] }}</font></td>
-            <td><font color="F2E9E6">{{ user['user_gr_id'] }}</font></td>
-            <td><font color="F2E9E6">{{ user['reviewing_style'] }}</font></td>
-            <td><font color="F2E9E6">{{ user['title'] }}</font></td>
-          </tr>
-          </tbody>
-          {% endfor %}
-          </table>
-        </div>
-      </div>
-      </div>
-
-   </div><!-- /.container -->
-  </section> 
+    </section> 
+   
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -109,7 +77,6 @@
     <script src="../static/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
-
 
     <!--============================= FOOTER =============================-->
     <footer class="main-block dark-bg">

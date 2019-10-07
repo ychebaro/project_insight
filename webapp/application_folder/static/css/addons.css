@@ -1,7 +1,94 @@
-body {
-  padding-top: 50px;
-}
+body  {
+  font-family: 'Roboto', sans-serif; }
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
 }
+
+h1 {
+  font-size: 56px;
+  color: #fff;
+  font-weight: 300; }
+
+h3 {
+  font-size: 24px;
+  color: #E6E3E2; }
+
+h2 {
+  font-size: 40px;
+  color: #fff; }
+
+.slider {
+  background: url(../images/testbooks_small_dark.png) no-repeat;
+  background-size: cover;
+  min-height: 1000px; }
+  @media (max-width: 1000px) {
+    .slider {
+      min-height: 1000px; } }
+
+@media (max-width: 1000px) {
+  .form-wrap {
+    margin: 0 !important; } }
+
+ .slider-content_wrap h5 {
+  color: #909090;
+  font-weight: 400;
+  margin: 200px 0; }
+
+ .slider-title_box {
+  text-align: center;
+  margin: 100px 0;  }
+
+ .form-group {
+  font-size: 16px;}
+  /*color: #F2E9E6;*/
+  /*padding: 2px;}*/
+
+
+label {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+  font-weight: 400; 
+  color: #F2E9E6;
+  font-size: 16px;}
+
+
+.btn-primary {
+  color: #D8CDC9;
+  background-color: #992322;
+  border-color: #7A1E1D;
+  margin: 20px 0;
+}
+
+
+.btn-primary:hover {
+  color: #D8CDC9;
+  background-color: #6E1918;
+  border-color: #7A1E1D;
+}
+
+.copyright {
+  text-align: center;
+  color: #8A8989; }
+
+.main-block {
+  padding: 10px 0; }
+  @media (max-width: 768px) {
+    .main-block {
+      padding: 10px 0; } }
+
+.dark-bg {
+  background: #222; }
+/*
+.row{
+  text-align: center;
+  margin: 100px 0;  }
+}*/
+
+/*.table {
+   margin: 0px auto;
+   width: 50%; 
+   float: none;
+}*/
