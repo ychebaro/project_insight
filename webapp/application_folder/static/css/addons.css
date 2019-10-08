@@ -81,14 +81,8 @@ label {
 
 .dark-bg {
   background: #222; }
-/*
-.row{
-  text-align: center;
-  margin: 100px 0;  }
-}*/
 
-/*.table {
-   margin: 0px auto;
-   width: 50%; 
-   float: none;
-}*/
+
+.table {
+   font-size: 16px;
+}
