@@ -1,5 +1,6 @@
-""" Cleaning book entries from GoodReads
-and extracting relevant books with the most populated tag
+""" Getting user books ratings for 
+users with minreviews (80)
+books with minratings (10)
 
 :Author: Yassmine Chebaro <yassmnine.chebaro@mssm.edu>
 :Date: 2019-09-26
@@ -13,56 +14,17 @@ import numpy as np
 import itertools
 
 
-def get_users_books(dfscifi, dfusers, minbooks, minreviews):
+def get_users_books(books_sci, bookmap, ratings):
 	""" Extracts books and users with a minimal number of books reviewed and a minimal
 	number of reviews per user
 	
 	Args:
 		dfscifi (:obj:`DataFrame`): pandas DataFrame of scifi books
+		bookmap (:obj:`DataFrame`): pandas DataFrame of users and ratings per book
 		dfusers (:obj:`DataFrame`): pandas DataFrame of users interactions
-		minbooks (:obj:`int`):  minimal number of books reviewed
-		minusers (:obj:`int`): minimal number of users who reviewed books 
 	Returns:
 		:obj:`df`: pandas DataFrame corresponding to the criteria
 	"""
-	
-	# extract overlap between scifi users and ratings_reviewed
-	booksf_list = list(set(dfscifi['book_id']))
-	df = dfusers[dfusers['book_id_gr'].isin(booksf_list)]
-
-	# get set list of book ids which have at least minbooks reviews
-	gpbooks = dfusers.groupby('book_id_gr').count()
-	
-	# get a pd
-	df_gpbooks = pd.DataFrame({'number_rating':gpbooks['rating']})
-	books_min_rev = df_gpbooks[df_gpbooks['number_rating'] >= minreviews]
-	books_min_rev['book_id_gr'] = books_min_rev.index
-	
-	# get list of unique books
-	listbooks_min_rev = list(set(books_min_rev['book_id_gr']))
-	
-	# get the number of books read by readers of scifi books
-	sum_read_user = df.groupby('user_id')['is_read'].count()
-	df_read_user = pd.DataFrame({'user_id':sum_read_user.index, 'number_read':sum_read_user.values})
-
-	# get the users with at least minreviews
-	dfuser_min_rev = df_read_user[df_read_user['number_read'] >= minreviews]
-
-	# list of users who read more than 10 books from the scifi genre
-	list_users_min_rev = list(set(dfuser_min_rev['user_id']))
-	
-
-	final_df = df[df['user_id'].isin(list_users_min_rev)]
-	
-	return final_df
-
-
-def main():
-
-	# Reading in user_ratings, book id mapping from csv to goodreads id and scifi books
-	ratings = pd.read_csv('goodreads_interactions.csv')
-	bookmap = pd.read_csv('book_id_map.csv')
-	books_sci = pd.read_csv('books-scifi.csv')
 
 	# Replacing book_id from csv with goodread book_id_gr
 	book_dict = bookmap.set_index('book_id_csv').T.to_dict('list')
@@ -94,7 +56,17 @@ def main():
 	n_ubooks_y = len(df2.book_id_gr.unique()) 
 	n_uusers_y = len(df2.user_id.unique())
 
-	df2.to_csv('ratings_books_u80_b10-v2.csv', index=False)
+	return df2
+
+def main():
+	# Reading in user_ratings, book id mapping from csv to goodreads id and scifi books
+	ratings = pd.read_csv('goodreads_interactions.csv')
+	bookmap = pd.read_csv('book_id_map.csv')
+	books_sci = pd.read_csv('books-scifi.csv')
+
+	df2 = get_users_books(books_sci, bookmap, ratings)
+
+	df2.to_csv('ratings_books_u80_b10-v3.csv', index=False)
 
 
 if __name__ == '__main__':

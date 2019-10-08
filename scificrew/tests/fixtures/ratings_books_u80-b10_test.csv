@@ -1,0 +1,4 @@
+user_id,is_read,rating,is_reviewed,book_id_gr,user_counts,book_counts,user_idx,book_idx
+1073,1,3,1,47970,146,157,0,624
+1272,1,5,1,44688,112,139,1,575
+1073,1,4,1,304687,146,49,0,1867

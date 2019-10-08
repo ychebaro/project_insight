@@ -1,8 +1,9 @@
 """ Cleaning book entries from GoodReads
 and extracting relevant books with the most populated tag
+    Unit Testing 
 
 :Author: Yassmine Chebaro <yassmnine.chebaro@mssm.edu>
-:Date: 2019-09-16
+:Date: 2019-09-20
 :License: MIT
 """
 
@@ -26,7 +27,6 @@ class CleaningBooksTestCase(unittest.TestCase):
 	def test_methods(self):
 
 		df_scifi = pd.read_csv(os.path.join('tests', 'fixtures', 'books_scifi_test.csv'))
-		print(df_scifi)
 
 		# need to add tests for all these parts
 		popnew, cnew = CleaningBooks().clean_data_bad_tags(df_scifi)
@@ -55,8 +55,7 @@ class CleaningBooksTestCase(unittest.TestCase):
 
 		# for now just testing the final result
 		popclean, cclean = CleaningBooks().get_first_tags(df_scifi, 1)
-		print(popclean, cclean)
 
-		self.assertEqual(popclean, ['horror', 'young-adult', 'dystopia', 'historical-fiction', 'historical-fiction'])
-		self.assertEqual(cclean, [1526, 160, 13, 22, 977])
+		self.assertEqual(popclean, ['horror', 'young-adult', 'dystopia', 'historical-fiction', 'historical-fiction', 'fantasy'])
+		self.assertEqual(cclean, [1526, 160, 13, 22, 977, 4315])
 
