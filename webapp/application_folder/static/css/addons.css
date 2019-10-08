@@ -20,7 +20,7 @@ h2 {
   color: #fff; }
 
 td {
-  font-size: 18px;
+  font-size: 16px;
   color: #F2E9E6; }
 
 .slider {
@@ -88,5 +88,5 @@ label {
 
 
 .table {
-   font-size: 16px;
+   background-color: #8A8989;
 }
