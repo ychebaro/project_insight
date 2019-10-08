@@ -19,6 +19,10 @@ h2 {
   font-size: 40px;
   color: #fff; }
 
+td {
+  font-size: 18px;
+  color: #F2E9E6; }
+
 .slider {
   background: url(../images/testbooks_small_dark.png) no-repeat;
   background-size: cover;
