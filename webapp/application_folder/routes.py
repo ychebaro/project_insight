@@ -4,8 +4,6 @@ import pandas as pd
 import random
 import sqlite3
 
-
-
 @app.route('/', methods=['POST', 'GET'])
 @app.route('/index', methods=['POST', 'GET'])
 
@@ -30,9 +28,12 @@ def scifi_output():
 	if negative == 'Yes':
 		cluster_all = cluster_all[cluster_all['Average sentiment'] != 'negative']
 
+	print(users_db[users_db['user_id_csv'] == int(user_id)])
 	# check if user_id entered is in the data
-	if len(users_db[users_db['user_id_csv'].astype(str).str.contains(user_id)]) == 0:
+#	if len(users_db[users_db['user_id_csv'].astype(str).str.contains(user_id)]) == 0:
+	if len(users_db[users_db['user_id_csv'] == int(user_id)]) == 0:
 		error = 'Invalid user id'
+		print('entering')
 		return render_template('output-error.html', error=error)
 	elif nb_users.isdigit() == False: 
 		error = 'Invalid number of users'
@@ -41,14 +42,12 @@ def scifi_output():
 		error = 'Invalid review answer'
 		return render_template('output-error-review.html', error=error)
 	else:
-
-
 		# select cluster to which the user belongs to
 		result = cur.execute("select group_y from users where user_id_csv=(?)", [user_id]).fetchall()
 		user_clust = result[0][0]
 		cluster_all = users_db[users_db['group_y'] == user_clust]
 
-		if int(nb_users) > len(cluster_all):
+		if int(nb_users) >= len(cluster_all):
 			error = 'Invalid number of users'
 			return render_template('output-error-nb_users.html', error=error)
 
