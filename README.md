@@ -23,3 +23,7 @@ A two step clustering based on user-book ratings and publication year/secondary 
 find_users.py
 
 Matching users for a specific user according to similarity matrix within each cluster
+
+
+# Unit testing
+The folder tests contains unit testing code for the python scripts and some mock data to try the unit tests
